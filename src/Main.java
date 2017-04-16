@@ -86,6 +86,9 @@ public class Main {
 			else if (tokens.get(0).equals("opendir")){
 				manager.openFolder(currentPath);
 			}
+			else if (tokens.get(0).equals("credits")){
+				manager.credits();
+			}
 
 			else if (tokens.get(0).equals("exit")) {
 				System.exit(0);
