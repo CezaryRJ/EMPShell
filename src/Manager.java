@@ -11,7 +11,7 @@ import java.util.ArrayList;
 public class Manager {
 	
 	public void credits(){
-		System.out.println("Created by Cezary Radoslaw Jaksula\nGithub link: https://github.com/zazzy13");
+		System.out.println("Created by Cezary Radoslaw Jaksula\nhttps://github.com/CezaryRJ");
 		
 	}
 	
