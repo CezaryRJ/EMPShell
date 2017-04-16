@@ -47,7 +47,7 @@ public class Main {
 
 			while (inn.hasNext()) {
 				tmp = inn.nextLine();
-				System.out.println("test");
+
 				while (!tmp.substring(counter, counter + 1).equals(" ")) {
 					counter++;
 				}
@@ -55,9 +55,10 @@ public class Main {
 				tmp = tmp.substring(0, counter);
 
 				userSettings.put(tmp, tmp2);
-				System.out.println("Key : " + tmp + " command " + userSettings.get(tmp));
+
 			}
 
+			System.out.println("User settings loaded");
 		} catch (FileNotFoundException e) {
 			// scan all subfolders on first boot
 
