@@ -10,6 +10,11 @@ import java.util.ArrayList;
 
 public class Manager {
 	
+	public void credits(){
+		System.out.println("Created by Cezary Radoslaw Jaksula\nGithub link: https://github.com/zazzy13");
+		
+	}
+	
 	public void openFolder(String currentPath) throws IOException{
 		Desktop.getDesktop().open(new File(currentPath));
 		
