@@ -1,4 +1,5 @@
 import java.io.File;
+import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
@@ -51,7 +52,13 @@ public class Manager {
 	public String enterFolder(String oldPath, String fileName) {
 
 		System.out.println(oldPath + "\\" + fileName);
-		return  oldPath + "\\" + fileName;
+		if(new File(oldPath + "\\" + fileName).exists()){
+			return  oldPath + "\\" + fileName;
+		}
+		else {
+			System.out.println("Invalid path name");
+			return oldPath;
+		}
 
 	}
 	public String exitFolder(String path){
