@@ -6,6 +6,8 @@ import java.util.Scanner;
 
 public class Main {
 
+	// sort by name, size, ranking/popularity
+
 	final static int coreCount = Runtime.getRuntime().availableProcessors();
 
 	public static void main(String[] args) throws Exception {
@@ -14,7 +16,8 @@ public class Main {
 		String currentPath = System.getProperty("user.dir");
 
 		Scanner inn;
-		Manager manager = new Manager();
+		ArrayList<String> tmpArr = null;
+		Manager manager = new Manager(System.getProperty("user.dir"));
 
 		HashMap<String, Boolean> database;
 		HashMap<String, String> userSettings = new HashMap<String, String>();
@@ -34,7 +37,9 @@ public class Main {
 		} catch (FileNotFoundException e) {
 			// scan all subfolders on first boot
 
-			manager.indexer(currentPath);
+			tmpArr = new ArrayList<>();
+			tmpArr.add(currentPath);
+			manager.runVoid.get("index").run(tmpArr);
 
 		}
 
@@ -61,77 +66,27 @@ public class Main {
 			System.out.println("User settings loaded");
 		} catch (FileNotFoundException e) {
 			// scan all subfolders on first boot
-
 			System.out.println("No user setting found");
 
 		}
 
-		ArrayList<String> tokens = new ArrayList<>();
-		inn = new Scanner(System.in);
-		tokens = manager.tokenize(inn.nextLine(), " ");
-
-		boolean userCmd = false;
+		ArrayList<String> tokens;
+		String tmp;
 		while (true) {
 
-			if (tokens.get(0).equals("ls")) {
-				manager.listFiles(currentPath);
+			inn = new Scanner(System.in);
+			tokens = manager.tokenize(inn.nextLine(), " ");
+			tmp = tokens.get(0);
 
-			} else if (tokens.get(0).equals("cd")) {
-				if (tokens.size() == 1) {
-					currentPath = manager.exitFolder(currentPath);
-				} else {
-
-					currentPath = manager.enterFolder(currentPath, tokens.get(1));
-				}
-
-			} else if (tokens.get(0).equals("exe")) {
-				manager.open(currentPath, tokens);
-			} else if (tokens.get(0).equals("help")) {
-				manager.help();
-			} else if (tokens.get(0).equals("goto")) {
-				if (tokens.size() == 1) {
-					String tmp = manager.goToc();
-					if (new File(tmp).isDirectory()) {
-						currentPath = manager.goToc();
-						System.out.println(currentPath);
-					} else {
-						System.out.println("No such directory");
-					}
-
-				} else {
-					if (new File(tokens.get(1)).exists()) {
-						currentPath = tokens.get(1);
-						System.out.println(currentPath);
-
-					} else {
-						System.out.println("No such directory");
-					}
-				}
-			} else if (tokens.get(0).equals("index")) {
-				manager.indexer(currentPath);
-			} else if (tokens.get(0).equals("delete")) {
-				manager.delete(currentPath, tokens);
-			} else if (tokens.get(0).equals("opendir")) {
-				manager.openFolder(currentPath);
-			} else if (tokens.get(0).equals("credits")) {
-				manager.credits();
-			} else if (tokens.get(0).equals("exit")) {
-				System.exit(0);
+			if (manager.runVoid.get(tmp) != null) {
+				tokens.remove(0);
+				manager.runVoid.get(tmp).run(tokens);
 			}
 
 			else {
-				userCmd = true;
-			}
-
-			if (userCmd == false) {
-				tokens = manager.tokenize(inn.nextLine(), " ");
-			} else {
-				tokens = manager.tokenize(userSettings.get(tokens.get(0)), " ");
-				userCmd = false;
+				System.out.println("No such Command");
 			}
 
 		}
-
 	}
-
 }
