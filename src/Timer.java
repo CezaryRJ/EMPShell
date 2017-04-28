@@ -1,4 +1,10 @@
 
+/**
+ * Its a timer , what did you expect ?
+ * 
+ * @author Cezary
+ *
+ */
 public class Timer {
 
 	long start = 0;

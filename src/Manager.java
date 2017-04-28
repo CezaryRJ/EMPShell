@@ -10,7 +10,16 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map.Entry;
+import java.util.Random;
 
+/**
+ * Manages all modules under a 100 line limit
+ * 
+ * @author Cezary
+ *
+ */
 public class Manager {
 
 	String path;
@@ -20,19 +29,26 @@ public class Manager {
 	Manager(String path) {
 		this.path = path;
 
-		runVoid.put("ls", new ls());
+		runVoid.put("dir", new ls());
 		runVoid.put("credits", new credits());
 		runVoid.put("opendir", new openFolder());
 		runVoid.put("del", new delete());
 		runVoid.put("index", new indexer());
 		runVoid.put("help", new help());
 		runVoid.put("exit", new exit());
+		runVoid.put("start", new open());
+		runVoid.put("random", new random());
 
 		runVoid.put("goto", new goToc());
 		runVoid.put("cd", new enterFolder());
 
 	}
 
+	/**
+	 * @param inn String to be tokenized 
+	 * @param limiter Where it string will be split
+	 * @return an array list of tokens
+	 */
 	public ArrayList<String> tokenize(String inn, String limiter) {
 
 		ArrayList<String> out = new ArrayList<>();
@@ -51,6 +67,48 @@ public class Manager {
 		return out;
 	}
 
+	/**
+	 * A modula that prints a random number given an input
+	 * 
+	 * @author Cezary
+	 *
+	 */
+	class random implements runVoid {
+		
+	
+		public void run(ArrayList<String> inn) {
+			int size = inn.size();
+			int random;
+
+			if (size == 0) {
+				random = (int) (Math.random() * 10000);
+				System.out.println(random);
+			} else if (size == 1) {
+				random = (int) (Math.random() * Integer.parseInt(inn.get(0)));
+				System.out.println(random);
+			} else {
+				random = (int) (Math.random() * (Integer.parseInt(inn.get(0)) - Integer.parseInt(inn.get(1)))
+						+ Integer.parseInt(inn.get(1)));
+				System.out.println(random);
+
+			}
+
+		}
+
+		public void help() {
+			System.out.println("random - print a random number up to 100000\n"
+					+ "random <number> - print a random number up to the given number\n"
+					+ "random <number1><number2> - print a random number between number1 and number2");
+
+		}
+	}
+
+	/**
+	 * Lists all files in a directory, used my the "dir" command
+	 * 
+	 * @author Cezary
+	 *
+	 */
 	class ls implements runVoid {
 
 		public void run(ArrayList<String> inn) {
@@ -85,6 +143,12 @@ public class Manager {
 		}
 	}
 
+	/**
+	 * prints credits
+	 * 
+	 * @author Cezary
+	 *
+	 */
 	class credits implements runVoid {
 
 		@Override
@@ -101,6 +165,12 @@ public class Manager {
 
 	}
 
+	/**
+	 * Open curernt path in windows explorer
+	 * 
+	 * @author Cezary
+	 *
+	 */
 	class openFolder implements runVoid {
 
 		@Override
@@ -121,6 +191,13 @@ public class Manager {
 		}
 
 	}
+	
+	/**
+	 * Removes a given file from the current directory, this is final and cannot be undone
+	 * 
+	 * @author Cezary
+	 *
+	 */
 
 	class delete implements runVoid {
 
@@ -154,7 +231,17 @@ public class Manager {
 
 			Timer timer = new Timer();
 			timer.start();
-			PrintWriter writer = new PrintWriter(path + ".txt", "UTF-8");
+			// must cut of first directory
+
+			ArrayList<String> pathTokens = tokenize(path, "\\");
+
+			String out = pathTokens.get(0);
+			for (int i = 1; i < pathTokens.size(); i++) {
+				out = out + "\\" + pathTokens.get(i);
+			}
+
+			System.out.println(out + "\\empdb.txt");
+			PrintWriter writer = new PrintWriter(out + "\\empdb.txt", "UTF-8");
 
 			File[] listOfFiles = new File(path).listFiles();
 
@@ -217,6 +304,13 @@ public class Manager {
 		}
 
 	}
+	
+	/**
+	 * If the clpboard contains a valid path, the shall will to that directory
+	 * 
+	 * @author Cezary
+	 *
+	 */
 
 	class goToc implements runVoid {
 
@@ -241,34 +335,54 @@ public class Manager {
 
 	}
 
+	/**
+	 * Prints instructions for all, or a givne module
+	 * 
+	 * @author Cezary
+	 *
+	 */
 	class help implements runVoid {
 
-		
 		public void run(ArrayList<String> inn) throws Exception {
 
-			runVoid.get(inn.get(0)).help();
+			try {
+				runVoid.get(inn.get(0)).help();
+			} catch (Exception e) {
+				for (Entry<String, runVoid> entry : runVoid.entrySet()) {
+					entry.getValue().help();
+					System.out.println();
+				}
+
+			}
+
 		}
 
-		
 		public void help() {
 			// TODO Auto-generated method stub
 
 		}
 
 	}
+	
+	/**
+	 * Opens a file with the default program in windows
+	 * 
+	 * @author Cezary
+	 *
+	 */
 
 	class open implements runVoid {
 
 		@Override
 		public void run(ArrayList<String> inn) throws Exception {
-			for (int i = 2; i < inn.size(); i++) {
 
+			for (int i = 0; i < inn.size(); i++) {
+				// System.out.println("test");
 				try {
-					if (new File(inn.get(0) + "\\" + inn.get(i)).exists()) {
-						Desktop.getDesktop().open(new File(inn.get(0) + "\\" + inn.get(i)));
+					if (new File(path + "\\" + inn.get(i)).exists()) {
+						Desktop.getDesktop().open(new File(path + "\\" + inn.get(i)));
 					} else {
-						System.out.println(
-								"Failed to open file " + inn.get(0) + "\\" + inn.get(i) + " file does not exist");
+						System.out.println("Failed to open file \\" + inn.get(i) + " file does not exist");
 					}
 				} catch (IOException e) {
 					// TODO Auto-generated catch block
@@ -284,6 +398,12 @@ public class Manager {
 		}
 
 	}
+	/**
+	 *Terminates the shell
+	 * 
+	 * @author Cezary
+	 *
+	 */
 
 	class exit implements runVoid {
 
@@ -295,12 +415,19 @@ public class Manager {
 
 		@Override
 		public void help() {
-			System.out.println("Closes the shell");
+			System.out.println("exit - Closes the shell");
 
 		}
 
 	}
 
+	/**
+	 * Enters a folder given a directory
+	 * 
+	 * @author Cezary
+	 *
+	 */
+	
 	class enterFolder implements runVoid {
 
 		@Override
@@ -318,11 +445,18 @@ public class Manager {
 					System.out.println("Invalid path name");
 
 				}
+				//if no input is given, exit current directory
 			} else {
 				path = exitFolder(path);
 			}
 		}
 
+		/**
+		 * Exits the current folder, and enters a previous one
+		 * 
+		 * @param path - Current directory path
+		 * @return
+		 */
 		public String exitFolder(String path) {
 
 			ArrayList<String> tmp = tokenize(path, "\\");
@@ -341,7 +475,7 @@ public class Manager {
 
 		@Override
 		public void help() {
-			// TODO Auto-generated method stub
+			System.out.println("cd - Enters a given folder");
 
 		}
 	}
