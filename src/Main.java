@@ -36,7 +36,7 @@ public class Main {
 			System.out.println(counter + " files in databse");
 
 		} catch (FileNotFoundException e) {
-			// scan all subfolders on first boot
+			// scan all subfolders on first boot, or if db file is not found
 			
 			tmpArr = new ArrayList<>();
 			tmpArr.add(currentPath);
@@ -45,6 +45,7 @@ public class Main {
 		}
 
 		try {
+			//load user setting if present
 			inn = new Scanner(new File("userSettings.txt"));
 			String tmp;
 
@@ -66,11 +67,12 @@ public class Main {
 
 			System.out.println("User settings loaded");
 		} catch (FileNotFoundException e) {
-			// scan all subfolders on first boot
+			
 			System.out.println("No user setting found");
 
 		}
 
+		//Start loop
 		ArrayList<String> tokens;
 		String tmp;
 		while (true) {
