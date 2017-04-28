@@ -1,6 +1,13 @@
 import java.io.File;
 import java.util.ArrayList;
 
+/**
+ * Indexes a given directory and its subdirectories
+ * used my the index method in the manager class
+ * 
+ * @author Cezary
+ *
+ */
 public class Crawler implements Runnable {
 
 	String path;

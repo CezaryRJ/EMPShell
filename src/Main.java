@@ -16,6 +16,7 @@ public class Main {
 		String currentPath = System.getProperty("user.dir");
 
 		Scanner inn;
+		
 		ArrayList<String> tmpArr = null;
 		Manager manager = new Manager(System.getProperty("user.dir"));
 
@@ -25,7 +26,7 @@ public class Main {
 			// read file database
 			int counter = 0;
 			database = new HashMap<String, Boolean>();
-			inn = new Scanner(new File("files.txt"));
+			inn = new Scanner(new File("empdb.txt"));
 			while (inn.hasNextLine()) {
 
 				database.put(inn.nextLine(), true);
@@ -36,7 +37,7 @@ public class Main {
 
 		} catch (FileNotFoundException e) {
 			// scan all subfolders on first boot
-
+			
 			tmpArr = new ArrayList<>();
 			tmpArr.add(currentPath);
 			manager.runVoid.get("index").run(tmpArr);
