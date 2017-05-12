@@ -1,3 +1,7 @@
+#unwanted crap
+*.mp3
+*.class
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
@@ -13,7 +17,7 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
-*.mp3
+
 
 # Windows shortcuts
 *.lnk

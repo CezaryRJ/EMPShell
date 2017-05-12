@@ -15,8 +15,7 @@ public class PartyMixer implements runVoid {
 		// inn 0 = number of tracs
 
 		File playlist = new File("EMPplaylist.m3u");
-		File tmp = new File(manager.path);
-		File[] fileList = tmp.listFiles();
+		File[] fileList = new File(manager.path).listFiles();
 		ArrayList<String> tokens;
 
 		int filesWanted = Integer.parseInt(inn.get(0));
