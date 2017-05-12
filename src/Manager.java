@@ -42,6 +42,7 @@ public class Manager {
 		runVoid.put("goto", new goToc());
 		runVoid.put("cd", new enterFolder());
 
+		runVoid.put("mix", new PartyMixer(this));
 	}
 
 	/**

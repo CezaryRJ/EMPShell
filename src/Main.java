@@ -83,6 +83,7 @@ public class Main {
 
 			if (manager.runVoid.get(tmp) != null) {
 				tokens.remove(0);
+				
 				manager.runVoid.get(tmp).run(tokens);
 			}
 
