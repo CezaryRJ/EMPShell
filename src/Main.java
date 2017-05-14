@@ -4,6 +4,10 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
 
+import javax.sound.sampled.AudioFileFormat;
+import javax.sound.sampled.AudioSystem;
+
+
 public class Main {
 
 	// sort by name, size, ranking/popularity
@@ -11,6 +15,8 @@ public class Main {
 	final static int coreCount = Runtime.getRuntime().availableProcessors();
 
 	public static void main(String[] args) throws Exception {
+
+		AudioFileFormat format = AudioSystem.getAudioFileFormat(new File("08 - Uprise.mp3"));
 
 		System.out.println("Welcome to EMPShell\nhttps://github.com/CezaryRJ");
 		String currentPath = System.getProperty("user.dir");
