@@ -16,7 +16,7 @@ public class Main {
 
 	public static void main(String[] args) throws Exception {
 
-		AudioFileFormat format = AudioSystem.getAudioFileFormat(new File("08 - Uprise.mp3"));
+		
 
 		System.out.println("Welcome to EMPShell\nhttps://github.com/CezaryRJ");
 		String currentPath = System.getProperty("user.dir");
