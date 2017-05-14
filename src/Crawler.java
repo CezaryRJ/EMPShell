@@ -39,22 +39,15 @@ public class Crawler implements Runnable {
 
 	public void listFiles(String path) {
 		File[] listOfFiles = new File(path).listFiles();
-		for(int i = 0; i<listOfFiles.length;i++){
-			System.out.println(listOfFiles[i]);
-		}
 		for (int i = 0; i < listOfFiles.length; i++) {
 			if (listOfFiles[i].isDirectory()) {
 				listFiles(listOfFiles[i].getAbsolutePath());
 			} else {
 				// System.out.println(listOfFiles[i].getAbsolutePath());
-				listFiles(listOfFiles[i].getAbsolutePath());
+				classifier.classify(listOfFiles[i].getAbsolutePath());
 			}
 		}
-		for (int i = 0; i < cacheAudio.size(); i++) {
-			System.out.println(cacheAudio.get(i));
-
-		}
-
+		
 	}
 
 	class classifier {
@@ -81,15 +74,15 @@ public class Crawler implements Runnable {
 			audio.put("mp3", audioAdder);
 
 			image.put("jpg", imageAdder);
+			image.put("png", imageAdder);
 		}
 
 		String fileType = null;
 
 		void classify(String path) {
 
-			
 			fileType = getExtention(path);
-			//System.out.println(path);
+			 //System.out.println(fileType);
 			// check if filetype has allready been seen
 			if (audio.get(fileType) != null) {
 
@@ -101,7 +94,7 @@ public class Crawler implements Runnable {
 
 				if (image.get(fileType) != null) {
 
-					System.out.println(fileType);
+					//System.out.println(fileType);
 					cacheImage.add(path);
 					return;
 				} else {
@@ -119,7 +112,7 @@ public class Crawler implements Runnable {
 		for (int i = inn.length() - 1; i > 1; i--) {
 			tmp = inn.substring(i - 1, i);
 			if (tmp.equals(".")) {
-				System.out.println(inn.substring(i, inn.length()));
+				//System.out.println(inn.substring(i, inn.length()));
 				return inn.substring(i, inn.length());
 			} else if (tmp.equals("\\")) {
 				return null;
