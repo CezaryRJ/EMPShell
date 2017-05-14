@@ -39,12 +39,15 @@ public class Crawler implements Runnable {
 
 	public void listFiles(String path) {
 		File[] listOfFiles = new File(path).listFiles();
+		for(int i = 0; i<listOfFiles.length;i++){
+			System.out.println(listOfFiles[i]);
+		}
 		for (int i = 0; i < listOfFiles.length; i++) {
 			if (listOfFiles[i].isDirectory()) {
 				listFiles(listOfFiles[i].getAbsolutePath());
 			} else {
 				// System.out.println(listOfFiles[i].getAbsolutePath());
-				classifier.classify(listOfFiles[i].getAbsolutePath());
+				listFiles(listOfFiles[i].getAbsolutePath());
 			}
 		}
 		for (int i = 0; i < cacheAudio.size(); i++) {
@@ -57,7 +60,6 @@ public class Crawler implements Runnable {
 	class classifier {
 		HashMap<String, AudioAdder> audio = new HashMap<>();
 		HashMap<String, ImageAdder> image = new HashMap<>();
-		HashMap<String, OtherAdder> other = new HashMap<>();
 
 		class AudioAdder {
 			void addAudio(String path) {
@@ -72,22 +74,24 @@ public class Crawler implements Runnable {
 
 		}
 
-		class OtherAdder {
-			void addOther(String path) {
-
-			}
-		}
-
 		AudioAdder audioAdder = new AudioAdder();
 		ImageAdder imageAdder = new ImageAdder();
-		OtherAdder otherAdder = new OtherAdder();
+
+		classifier() {
+			audio.put("mp3", audioAdder);
+
+			image.put("jpg", imageAdder);
+		}
 
 		String fileType = null;
 
 		void classify(String path) {
 
+			
+			fileType = getExtention(path);
+			//System.out.println(path);
 			// check if filetype has allready been seen
-			if (audio.get(getExtention(path)) != null) {
+			if (audio.get(fileType) != null) {
 
 				cacheAudio.add(path);
 				return;
@@ -95,80 +99,33 @@ public class Crawler implements Runnable {
 
 				// check if filetype has allready been seen
 
-				if (image.get(getExtention(path)) != null) {
+				if (image.get(fileType) != null) {
 
-					System.out.println(getExtention(path));
+					System.out.println(fileType);
 					cacheImage.add(path);
 					return;
 				} else {
 
-					if (other.get(getExtention(path)) != null) {
-
-						cacheOther.add(path);
-						return;
-					} else {
-						// if we get here it means we have found a new filetype
-					
-						try {
-						
-							AudioFileFormat format = AudioSystem.getAudioFileFormat(new File("2.mp3"));
-							System.out.println("hei");
-							fileType = getExtention(path);
-							audio.put(fileType, audioAdder);
-							audio.get(fileType).addAudio(path);
-
-							return;
-
-						} catch (UnsupportedAudioFileException a) {
-							// now we know its not an audio file
-							
-						
-								try {
-									if (ImageIO.read(new File(path)) == null) {
-										// is not image
-										
-										fileType = getExtention(path);
-										other.put(fileType, otherAdder);
-										other.get(fileType).addOther(path);
-										return;
-									} else {
-										//is image
-										
-										fileType = getExtention(path);
-										image.put(fileType, imageAdder);
-										image.get(fileType).addImage(path);
-										return;
-									}
-								} catch (IOException e) {
-									// TODO Auto-generated catch block
-									e.printStackTrace();
-								}
-							
-						} catch (Exception b) {
-
-						}
-
-					}
+					cacheOther.add(path);
+					return;
 				}
 			}
-
-		}
-
-		String getExtention(String inn) {
-
-			String tmp;
-			for (int i = inn.length() - 1; i > 1; i--) {
-				tmp = inn.substring(i - 1, i);
-				if (tmp.equals(".")) {
-
-					return inn.substring(i, inn.length());
-				} else if (tmp.equals("\\")) {
-					return null;
-				}
-			}
-
-			return null;
 		}
 	}
 
+	String getExtention(String inn) {
+
+		String tmp;
+		for (int i = inn.length() - 1; i > 1; i--) {
+			tmp = inn.substring(i - 1, i);
+			if (tmp.equals(".")) {
+				System.out.println(inn.substring(i, inn.length()));
+				return inn.substring(i, inn.length());
+			} else if (tmp.equals("\\")) {
+				return null;
+			}
+		}
+
+		return null;
+	}
 }
