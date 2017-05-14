@@ -2,17 +2,13 @@ import java.awt.Desktop;
 import java.awt.Toolkit;
 import java.awt.datatransfer.DataFlavor;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.io.UnsupportedEncodingException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.Map.Entry;
-import java.util.Random;
 
 /**
  * Manages all modules under a 100 line limit
@@ -38,16 +34,16 @@ public class Manager {
 		runVoid.put("exit", new exit());
 		runVoid.put("start", new open());
 		runVoid.put("random", new random());
-
 		runVoid.put("goto", new goToc());
 		runVoid.put("cd", new enterFolder());
-
 		runVoid.put("mix", new PartyMixer(this));
 	}
 
 	/**
-	 * @param inn String to be tokenized 
-	 * @param limiter Where it string will be split
+	 * @param inn
+	 *            String to be tokenized
+	 * @param limiter
+	 *            Where it string will be split
 	 * @return an array list of tokens
 	 */
 	public ArrayList<String> tokenize(String inn, String limiter) {
@@ -75,8 +71,7 @@ public class Manager {
 	 *
 	 */
 	class random implements runVoid {
-		
-	
+
 		public void run(ArrayList<String> inn) {
 			int size = inn.size();
 			int random;
@@ -192,9 +187,10 @@ public class Manager {
 		}
 
 	}
-	
+
 	/**
-	 * Removes a given file from the current directory, this is final and cannot be undone
+	 * Removes a given file from the current directory, this is final and cannot
+	 * be undone
 	 * 
 	 * @author Cezary
 	 *
@@ -246,8 +242,10 @@ public class Manager {
 
 			File[] listOfFiles = new File(path).listFiles();
 
-			ArrayList<ArrayList<String>> cache = new ArrayList<>();
-			cache.add(new ArrayList<String>());
+			ArrayList<ArrayList<ArrayList<String>>> cache = new ArrayList<>();
+
+			cache.add(new ArrayList<ArrayList<String>>());
+			cache.get(0).add(new ArrayList<String>());
 
 			Thread[] crawler = new Thread[Runtime.getRuntime().availableProcessors()];
 
@@ -260,7 +258,10 @@ public class Manager {
 				if (tmp.isDirectory()) {
 					for (int x = 0; x < crawler.length; x++) {
 						if (crawler[x] == null || !crawler[x].isAlive()) {
-							cache.add(new ArrayList<String>());
+							cache.add(new ArrayList<ArrayList<String>>());
+							for (int y = 0; y < 3; y++) {
+								cache.get(cache.size() - 1).add(new ArrayList<String>());
+							}
 							crawler[x] = new Thread(new Crawler(tmp.getAbsolutePath(), cache.get(cache.size() - 1)));
 							crawler[x].start();
 							threads++;
@@ -269,7 +270,7 @@ public class Manager {
 					}
 
 				} else {
-					cache.get(0).add(tmp.getAbsolutePath());
+					cache.get(0).get(0).add(tmp.getAbsolutePath());
 				}
 
 			}
@@ -282,15 +283,24 @@ public class Manager {
 
 			}
 			int counter = 0;
-			for (int i = 0; i < cache.size(); i++) {
-				ArrayList<String> tmpArr = cache.get(i);
-				for (int x = 0; x < cache.get(i).size(); x++) {
-					writer.println(tmpArr.get(x));
-					counter++;
+			// legg sammen resultater
 
-				}
+		
+				for (int b = 0; b < cache.size(); b++) {
+					for (int c = 0; c < cache.get(b).size(); c++) {
+						for (int d = 0; d < cache.get(b).get(c).size(); d++) {
+						
+
+							writer.println(cache.get(b).get(c).get(d));
+							counter++;
+						}
+
+					}
+
+				
 
 			}
+
 			writer.close();
 			System.out.print(counter + " files gathered in ");
 			timer.stop();
@@ -305,7 +315,7 @@ public class Manager {
 		}
 
 	}
-	
+
 	/**
 	 * If the clpboard contains a valid path, the shall will to that directory
 	 * 
@@ -364,7 +374,7 @@ public class Manager {
 		}
 
 	}
-	
+
 	/**
 	 * Opens a file with the default program in windows
 	 * 
@@ -399,8 +409,9 @@ public class Manager {
 		}
 
 	}
+
 	/**
-	 *Terminates the shell
+	 * Terminates the shell
 	 * 
 	 * @author Cezary
 	 *
@@ -428,7 +439,7 @@ public class Manager {
 	 * @author Cezary
 	 *
 	 */
-	
+
 	class enterFolder implements runVoid {
 
 		@Override
@@ -446,7 +457,7 @@ public class Manager {
 					System.out.println("Invalid path name");
 
 				}
-				//if no input is given, exit current directory
+				// if no input is given, exit current directory
 			} else {
 				path = exitFolder(path);
 			}
@@ -455,7 +466,8 @@ public class Manager {
 		/**
 		 * Exits the current folder, and enters a previous one
 		 * 
-		 * @param path - Current directory path
+		 * @param path
+		 *            - Current directory path
 		 * @return
 		 */
 		public String exitFolder(String path) {

@@ -2,6 +2,12 @@ import java.io.File;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 
+/**
+ * Makes a playlist consisting of the requested amount of tracks from the databse
+ * 
+ * @author Cezary
+ *
+ */
 public class PartyMixer implements runVoid {
 
 	Manager manager;
