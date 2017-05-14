@@ -65,7 +65,7 @@ public class Manager {
 	}
 
 	/**
-	 * A modula that prints a random number given an input
+	 * A module that prints a random number given an input
 	 * 
 	 * @author Cezary
 	 *
@@ -243,9 +243,11 @@ public class Manager {
 			File[] listOfFiles = new File(path).listFiles();
 
 			ArrayList<ArrayList<ArrayList<String>>> cache = new ArrayList<>();
-
 			cache.add(new ArrayList<ArrayList<String>>());
-			cache.get(0).add(new ArrayList<String>());
+			for (int y = 0; y < 3; y++) {
+				cache.get(cache.size() - 1).add(new ArrayList<String>());
+			}
+			Crawler thisFolder = new Crawler(path, cache.get(0));
 
 			Thread[] crawler = new Thread[Runtime.getRuntime().availableProcessors()];
 
@@ -257,6 +259,7 @@ public class Manager {
 
 				if (tmp.isDirectory()) {
 					for (int x = 0; x < crawler.length; x++) {
+
 						if (crawler[x] == null || !crawler[x].isAlive()) {
 							cache.add(new ArrayList<ArrayList<String>>());
 							for (int y = 0; y < 3; y++) {
@@ -270,7 +273,8 @@ public class Manager {
 					}
 
 				} else {
-					cache.get(0).get(0).add(tmp.getAbsolutePath());
+					// denne sjekke filene i root mappen
+					thisFolder.classifier.classify(tmp.getAbsolutePath());
 				}
 
 			}
@@ -282,27 +286,47 @@ public class Manager {
 				}
 
 			}
+
 			int counter = 0;
+			int fileCounter = 0;
 			// legg sammen resultater
 
-		
-				for (int b = 0; b < cache.size(); b++) {
-					for (int c = 0; c < cache.get(b).size(); c++) {
-						for (int d = 0; d < cache.get(b).get(c).size(); d++) {
-						
+			
+			
+			for (int i = 0; i < 3; i++) {
 
-							writer.println(cache.get(b).get(c).get(d));
-							counter++;
-						}
+				for (int x = 0; x < cache.size(); x++) {
+					counter += cache.get(x).get(i).size();
+
+				}
+				System.out.println(counter);
+				writer.println(counter);
+
+				for (int x = 0; x < cache.size(); x++) {
+					for (int y = 0; y < cache.get(x).get(i).size(); y++) {
+						writer.println(cache.get(x).get(i).get(y));
 
 					}
 
-				
+				}
 
+				fileCounter += counter;
+				counter = 0;
 			}
 
+			/*
+			 * for (int b = 0; b < cache.size(); b++) { for (int c = 0; c <
+			 * cache.get(b).size(); c++) { for (int d = 0; d <
+			 * cache.get(b).get(c).size(); d++) {
+			 * writer.println(cache.get(b).get(c).get(d)); counter++; } }
+			 * 
+			 * counter = 0;
+			 * 
+			 * }
+			 */
+			writer.print(fileCounter);
 			writer.close();
-			System.out.print(counter + " files gathered in ");
+			System.out.print(fileCounter + " files gathered in ");
 			timer.stop();
 			System.out.println("\n" + threads + " threads have been used for this task");
 
@@ -310,7 +334,7 @@ public class Manager {
 
 		@Override
 		public void help() {
-			// TODO Auto-generated method stub
+			System.out.println("Indexes the current directry, as well as any subdirectory");
 
 		}
 

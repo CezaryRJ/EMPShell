@@ -16,7 +16,6 @@ public class Main {
 
 	public static void main(String[] args) throws Exception {
 
-		
 
 		System.out.println("Welcome to EMPShell\nhttps://github.com/CezaryRJ");
 		String currentPath = System.getProperty("user.dir");
