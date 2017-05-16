@@ -11,6 +11,7 @@ public class DataBase {
 	HashMap<String, Boolean> other = new HashMap<String, Boolean>();
 
 	public void readData(String file) {
+		/*
 		Scanner inn = new Scanner(new File(file));
 
 		try {
@@ -30,6 +31,7 @@ public class DataBase {
 
 			index(System.getProperty("user.dir"));
 		}
+		*/
 
 		/*
 		 * HashMap<String, String> userSettings = new HashMap<String, String>();
