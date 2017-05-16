@@ -10,23 +10,28 @@ public class Recorder {
 		if (records.size() < 10) {
 			records.add(inn);
 			index++;
+
 		} else {
 			records.remove(0);
 			records.add(inn);
 		}
 	}
 
-	public void printUp() {
-		if (index > 0) {
-			System.out.println('\r' + records.get(index));
-			index--;
+	public String printUp() {
+		if (index > -1) {
+
+			return records.get(--index);
 		}
+		return records.get(index);
 	}
 
-	public void printDown() {
-		if(index < 10){
-		System.out.println('\r' + records.get(index));
-		index++;}
+	public String printDown() {
+
+		if (index < 10) {
+
+			return records.get(++index);
+		}
+		return records.get(index);
 	}
 
 }
