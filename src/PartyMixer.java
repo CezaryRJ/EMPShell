@@ -21,7 +21,7 @@ public class PartyMixer implements runVoid {
 		// inn 0 = number of tracs
 
 		File playlist = new File("EMPplaylist.m3u");
-		File[] fileList = new File(manager.path).listFiles();
+		File[] fileList = new File(Manager.path).listFiles();
 		ArrayList<String> tokens;
 
 		int filesWanted = Integer.parseInt(inn.get(0));
@@ -31,7 +31,7 @@ public class PartyMixer implements runVoid {
 		writer.println("#EXTM3U");
 
 		for (int i = 0; i < fileList.length && filesFound != filesWanted; i++) {
-			tokens = manager.tokenize(fileList[i].getName(), ".");
+			tokens = Manager.tokenize(fileList[i].getName(), ".");
 			if (tokens.get(tokens.size() - 1).equals("mp3")) {
 				writer.println("#EXTINF:0," + fileList[i].getName());
 				writer.println(fileList[i].getAbsolutePath());

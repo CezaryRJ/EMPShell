@@ -3,7 +3,6 @@ import java.awt.Toolkit;
 import java.awt.datatransfer.DataFlavor;
 import java.io.File;
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
@@ -18,19 +17,21 @@ import java.util.Map.Entry;
  */
 public class Manager {
 
-	String path;
+	static String path;
 
 	HashMap<String, runVoid> runVoid = new HashMap<>();
+	
+	DataBase database = new DataBase();
 
 	Manager(String path) {
-		this.path = path;
+		Manager.path = path;
 
 		runVoid.put("dir", new ls());
 		runVoid.put("credits", new credits());
 		runVoid.put("opendir", new openFolder());
 		runVoid.put("del", new delete());
-		//runVoid.put("index", new indexer());
-		runVoid.put("help", new help());
+		runVoid.put("index", database);
+		runVoid.put("help", new helper());
 		runVoid.put("exit", new exit());
 		runVoid.put("start", new open());
 		runVoid.put("random", new random());
@@ -46,7 +47,7 @@ public class Manager {
 	 *            Where it string will be split
 	 * @return an array list of tokens
 	 */
-	public ArrayList<String> tokenize(String inn, String limiter) {
+	public static ArrayList<String> tokenize(String inn, String limiter) {
 
 		ArrayList<String> out = new ArrayList<>();
 		int counter = 0;
@@ -221,8 +222,6 @@ public class Manager {
 
 	}
 
-	
-
 	/**
 	 * If the clpboard contains a valid path, the shall will to that directory
 	 * 
@@ -259,7 +258,7 @@ public class Manager {
 	 * @author Cezary
 	 *
 	 */
-	class help implements runVoid {
+	class helper implements runVoid {
 
 		public void run(ArrayList<String> inn) throws Exception {
 
@@ -274,7 +273,7 @@ public class Manager {
 			}
 
 		}
-
+		
 		public void help() {
 			// TODO Auto-generated method stub
 
@@ -328,6 +327,9 @@ public class Manager {
 
 		@Override
 		public void run(ArrayList<String> inn) throws Exception {
+			System.out.println("Writing database to file");
+			database.writeToFile();
+			System.out.println("Exiting - Have a nice day");
 			System.exit(0);
 
 		}

@@ -23,7 +23,7 @@ public class Main {
 
 			tmp = inn.nextLine();
 			raw = tmp;
-			tokens = manager.tokenize(tmp, " ");
+			tokens = Manager.tokenize(tmp, " ");
 			tmp = tokens.get(0);
 
 			if (manager.runVoid.get(tmp) != null) {
@@ -35,7 +35,7 @@ public class Main {
 
 				try {
 					// try to get command for history
-					tokens = manager.tokenize(recorder.getInput(Integer.parseInt(tokens.get(0))), " ");
+					tokens = Manager.tokenize(recorder.getInput(Integer.parseInt(tokens.get(0))), " ");
 					tmp = tokens.get(0);
 
 					System.out.println("Executing command: " + recorder.getInput(Integer.parseInt(raw)));
@@ -48,7 +48,7 @@ public class Main {
 
 				} catch (NumberFormatException e) {
 					// get latest command
-					tokens = manager.tokenize(recorder.getLatest(), " ");
+					tokens = Manager.tokenize(recorder.getLatest(), " ");
 					System.out.println("Executing command: " + recorder.getLatest());
 					tmp = tokens.get(0);
 					if (manager.runVoid.get(tmp) != null) {
