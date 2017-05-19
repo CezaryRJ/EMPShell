@@ -119,10 +119,10 @@ public class DataBase implements runVoid {
 
 		}
 		int maxThreads = 0;
-		if (Runtime.getRuntime().availableProcessors() * 2 > crawler.size()) {
-			maxThreads = crawler.size();
+		if (Runtime.getRuntime().availableProcessors() * 2 < crawler.size()) {
+			maxThreads = Runtime.getRuntime().availableProcessors();
 		} else {
-			maxThreads = Runtime.getRuntime().availableProcessors() * 2;
+			maxThreads = crawler.size();
 		}
 
 		int threadIndex = 0;
@@ -137,6 +137,7 @@ public class DataBase implements runVoid {
 			crawler.get(i).join();
 			try {
 				crawler.get(threadIndex).start();
+				threadIndex++;
 			} catch (Exception e) {
 
 			}
