@@ -104,7 +104,7 @@ public class DataBase implements runVoid {
 			tmp = new File(listOfFiles[i].getPath());
 
 			if (tmp.isDirectory()) {
-				System.out.println(tmp);
+				
 				cache.add(new ArrayList<ArrayList<String>>());
 				for (int y = 0; y < classes; y++) {
 					cache.get(cache.size() - 1).add(new ArrayList<String>());

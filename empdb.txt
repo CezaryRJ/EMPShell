@@ -84,7 +84,7 @@ C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\assets\img\stick\C
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\assets\img\blademaster.png
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\assets\img\stick\zMKU3A5.png
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\assets\img\stick\aOKQbiX.png
-4029
+4050
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\8b\901fa0b4170000171a8fc6f0aff92bc8
 C:\Users\Cezary\Google Drive\Programming\Java\card_game\src\card_game\deck.java
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\.git\objects\6a\fc0aa3e98de9876fedca5c64b7f69a38cfefdb
@@ -555,6 +555,7 @@ C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\bin\Skills\Skill.c
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\.git\objects\b5\ae6bc74f943e150cf1cc6a8236af3c80d1a514
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\.git\objects\e1\6c44d3d0bacd2b380c49109533bc994a63cb63
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\37\d09f7df51a0000171a8fc6f0aff92bc8
+C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\06\ad62948609d176025800d2db7959418a36f129
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\49\005de145150000171a8fc6f0aff92bc8
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\parser\Block.java
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\.git\objects\ba\28d9513878d53757f6b66e6c476115e67f2865
@@ -590,6 +591,7 @@ C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\.git\objects
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\.git\ORIG_HEAD
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\32\402342d2210000171a8fc6f0aff92bc8
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\.git\objects\d6\d320263b4707006c37bf7342afc68d12cda3e1 (1)
+C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\51\7a0e2e2da46e4b31a3e254eca7f74072198e25
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\ac\d017c8d266370017142cd9486e12983c
 C:\Users\Cezary\Google Drive\Programming\Java\.recommenders\snipmatch\repositories\http___git_eclipse_org_gitroot_recommenders_org_eclipse_recommenders_snipmatch_snippets_git\snippets\654533ef-b69e-3486-85c9-467197382859.json
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\.git\objects\7a\3213cc0801f7106514c676c4c576602f689bf9
@@ -781,10 +783,12 @@ C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.cor
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.epp.logging.aeri.ide\org.eclipse.epp.logging.aeri.ide.server\remote-history\_p.fdx
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\.git\objects\1e\12977e4ffcc5195cbb2ae2db26f67d357ed5e0
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\.git\objects\c7\851d0b88cf6382cb2a0412bcb101526ac64f56
+C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\8f\9cfc7957421b3afedadd8fdb5f07359717e5ba
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\e7\30386706693c001711d9d99986c44dab
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\.git\objects\3a\70dd8285c31c35464a8213f1e41fc0cb22e6af
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\66\8032dfae763c001711d9d99986c44dab
 C:\Users\Cezary\Google Drive\Programming\Java\.recommenders\snipmatch\repositories\http___git_eclipse_org_gitroot_recommenders_org_eclipse_recommenders_snipmatch_snippets_git\snippets\a361fe42-f673-486b-9a44-f82803decc65.json
+C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\d0\b5abd4046f2508e15762984cb06c809b80a216
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\bin\GUI\MainMenu$1.class
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\d\60c488b9190000171a8fc6f0aff92bc8
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\types\BoolType.class
@@ -1063,6 +1067,7 @@ C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.cor
 C:\Users\Cezary\Google Drive\Programming\Java\MorseL\.git\objects\1c\56f8fda3a4191e6009dd0cb83bd95f6f90a25a
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\d3\b0dfbc86983c001711d9d99986c44dab
 C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\ed\7f041b3bf95b8e690f0b834ee7f0992808f766
+C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\9c\a01e731ba13c001711d9d99986c44dab
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\93\e06993221c0000171a8fc6f0aff92bc8
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.ltk.core.refactoring\.refactorings\.workspace\2017\2\7\refactorings.index
 C:\Users\Cezary\Google Drive\Programming\Java\Server_Client_test\src\server.class
@@ -1199,6 +1204,7 @@ C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\ae\784d5b328
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\.git\objects\b5\3b93dc19675ecad2b4b5ec205129be149f4a44
 C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\67\d73ccd7d969b5e22d71d7aeabfd5e481416729
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\.git\objects\8e\5f7f09d51d6e3ada34037ab25ca9eda549e6fc
+C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\79\a5979de93c06688577df339326b309fb17a3a0
 C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\src\Manager$ls.class
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\.git\objects\c3\2f19976d2fe3bd67534454b6a3b01bd331d49e
 C:\Users\Cezary\Google Drive\Programming\Java\.recommenders\snipmatch\repositories\http___git_eclipse_org_gitroot_recommenders_org_eclipse_recommenders_snipmatch_snippets_git\index\_3.fdt
@@ -1464,6 +1470,7 @@ C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\.git\objects
 C:\Users\Cezary\Google Drive\Programming\Java\Server_Client_test\.git\logs\refs\remotes\origin\master
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\80\1064daad1a0000171a8fc6f0aff92bc8
 C:\Users\Cezary\Google Drive\Programming\Java\.recommenders\index\http___download_eclipse_org_recommenders_models_neon_\write.lock
+C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\e5\9969bf2ead81d776a7dbd7a3977306b22455f4
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\.git\objects\e0\d673d08a89e66d44ec3711997237e39ed64ca9
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\6c\807fc03813ed00161e4e8a01ae76cb67
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\74\80c17e06cdec00161e4e8a01ae76cb67
@@ -1779,6 +1786,7 @@ C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\.git\objects
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\fa\802235a7150000171a8fc6f0aff92bc8
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\.git\objects\6f\94b03db710f2dbbf403936829d308cc7176393
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\parser\Term.class
+C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\93\808c5e3ca13c001711d9d99986c44dab
 C:\Users\Cezary\Google Drive\Programming\Java\card_game\src\rules\drawCard.java
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\4f\10bc63f8cfec00161e4e8a01ae76cb67
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.mylyn.tasks.ui.prefs
@@ -1875,11 +1883,13 @@ C:\Users\Cezary\Google Drive\Programming\Java\.recommenders\snipmatch\repositori
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\Champions\BladeMaster\BladeMaster3.java
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\b2\f0eaf5d1140000171a8fc6f0aff92bc8
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\.git\objects\33\8f0c625fc807e0189e37b485e202c3048a9f8b
+C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\c6\f62dc8b29d23f7f01b81afbc68909c5c27a2b3
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\cf\c01672bc1b0000171a8fc6f0aff92bc8
 C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\src\Main.java
 C:\Users\Cezary\Google Drive\Programming\Java\Game\.settings\org.eclipse.jdt.core.prefs
 C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\93\60fbab8a77751772d028f7afe884e293bb43a3
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\.git\objects\69\a1961025afce3eb1466664580f7ad5c91d61f6
+C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\12\780ba0e7e44695c9a45b6e200ceca8a48f5af7
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\8a\a0600044180000171a8fc6f0aff92bc8
 C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\19\57df832e091fc440892de88f1a744adb549f8f
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\bin\testdummy\testdummy.class
@@ -1982,6 +1992,7 @@ C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\.git\objects
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\.git\refs\heads\master
 C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\84\ed404ecb5d5cc68f125e6a00d2249b21ff1704
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\.git\objects\20\2f4dadf7dcc6c38a072a80eb8faee829e5a0a1
+C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\9e\f8f701c4df7ce5c7b7da5a5bd6a00ac9ceae00
 C:\Users\Cezary\Google Drive\Programming\Java\Server_Client_test\src\client.class
 C:\Users\Cezary\Google Drive\Programming\Java\finnStorste\.git\objects\4e\007610d905bd04d2779c5eed42baf4882da8d9
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\.gitattributes
@@ -2054,6 +2065,7 @@ C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\src\test1.java
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\41\707c64a0160000171a8fc6f0aff92bc8
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\6f\90b8744e973c001711d9d99986c44dab
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.debug.core\.launches\test1.launch
+C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\58\7dcfb2490371449b18107e46d86c7cce3636e9
 C:\Users\Cezary\Google Drive\Programming\Java\MorseL\src\PrintWriter.java
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\parser\CompoundStatm.java
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\.git\objects\f1\a862ee61118c51dfc4bb6beaece846ba1cf50b
@@ -2171,6 +2183,7 @@ C:\Users\Cezary\Google Drive\Programming\Java\KonveksInhyll\src\CezaryRJ_Oblig4.
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\50\70ebbed3493900171a7ee083befdb8c0
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\.git\objects\94\a6546d93c67dbe9289bbe69d61f1105962ff08
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\.git\objects\38\6b96880255cfb5736676171c966b9af8546251
+C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\a8\55ac601a732626c2955aa3399d8f1378687a86
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\a4\708743c61f0000171a8fc6f0aff92bc8
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.jdt.core\1604381437.index
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\.git\objects\06\cce3895048ad87b457e6335016d35810977461
@@ -2508,6 +2521,7 @@ C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.cor
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\.git\objects\e5\30412554a65aeab33f1802bf6b553ac9e947f5
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\.git\objects\8e\2e3346d7c80d34a864db3f60dfa318d89eba3a
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\.git\objects\61\211e4e0a75fd930924d6c9ff49aee5da713b54
+C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\34\b901930cbd526659820b5b10976f0f254e5e46
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\56\c07146e8333700171e419eda3d0fc41d
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\assets\img\4.gif
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\e9\f08c2d2316ed00161e4e8a01ae76cb67
@@ -2547,6 +2561,7 @@ C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\.git\objects
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\parser\EmptyStatm.java
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\.git\objects\92\9cfb804331d527271bac69a890c3433569af1d
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\5e\805e7916bbe8001615e7bce91b49ff25
+C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\54\a4ad7c4e7fab415618388de654f76618b8749c
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\Champions\Xerath\Xerath.java
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.m2e.discovery.prefs
 C:\Users\Cezary\Google Drive\Programming\Java\card_game\.git\objects\22\963103510c52422252bd89ba49b77d240d4eac
@@ -2628,6 +2643,7 @@ C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.cor
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\src\teammgmt\counter.java
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\.git\index
 C:\Users\Cezary\Google Drive\Programming\Java\Robol\.git\logs\refs\heads\master
+C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\5f\877c38307990ffe9f8269b613ccc01885eaa1b
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\.git\objects\96\bb26517e27268918c7da89ecc951e0c0a004ce
 C:\Users\Cezary\Google Drive\Programming\Java\Protein_Synthesys\bin\Cell_core$encahncer.class
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\f3\40b8fcdd393700171e419eda3d0fc41d
@@ -2824,6 +2840,7 @@ C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\.gitattributes
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\88\e0e5fefb5a370017142cd9486e12983c
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\9d\801884a7ce3800171a7ee083befdb8c0
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\.git\MERGE_MODE
+C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\d4\38a378c06a2d7213d6edbd6bd2ca722f98f746
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\.git\objects\5f\6b32050856bc85922050372e4f9f333bdf6cb9
 C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\e6\c46a71c4dc739b8f247fe4b3391e1d56cf6654
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.jdt.ui\QualifiedTypeNameHistory.xml
@@ -3360,6 +3377,7 @@ C:\Users\Cezary\Google Drive\Programming\Java\.recommenders\snipmatch\repositori
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\.git\objects\55\d05a903c6e7f7461bf56616475523384bd1ce5
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\.git\objects\a7\f74a2c9301cd24b619654d79e6e6f493c29e7a
 C:\Users\Cezary\Google Drive\Programming\Java\Radix_sort\src – Kopi\README.txt
+C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\3b\7a22bad617c105009419623f5b7dcfc2e8a544
 C:\Users\Cezary\Google Drive\Programming\Java\.recommenders\snipmatch\repositories\http___git_eclipse_org_gitroot_recommenders_org_eclipse_recommenders_snipmatch_snippets_git\.git\FETCH_HEAD
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\3c\a0264bca170000171a8fc6f0aff92bc8
 C:\Users\Cezary\Google Drive\Programming\Java\Robol\.git\objects\28\5288f18f3f9624957f7960cb3e3bbcbc5c7591
@@ -3640,6 +3658,7 @@ C:\Users\Cezary\Google Drive\Programming\Java\Server_Client_test\.git\objects\d1
 C:\Users\Cezary\Google Drive\Programming\Java\card_game\src\card_game\stageTrans.java
 C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\26\10ef670f96c451b2c1a2896587e2ecdcea093a
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\.git\objects\80\3a568a5f2204e28f3b8246481dc1f37d31f5e5
+C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\63\90930abfe89d76d154d34bd660c0367b81c0bf
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\eb\60839ca21c0000171a8fc6f0aff92bc8
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\74\e0e5c814cdec00161e4e8a01ae76cb67
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\cb\10e206e1b8e8001615e7bce91b49ff25
@@ -3653,6 +3672,7 @@ C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.cor
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\assets\img\graves.gif
 C:\Users\Cezary\Google Drive\Programming\Java\Robol\.git\objects\8b\4059185eb63c7fbcd10020fd68805f9335fb45
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\.git\objects\3a\70dd8285c31c35464a8213f1e41fc0cb22e6af
+C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\21\2097f819a23c001711d9d99986c44dab
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\6b\d068309ec63900171a7ee083befdb8c0
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.jdt.core\939551371.index
 C:\Users\Cezary\Google Drive\Programming\Java\card_game\.git\objects\37\7a67c78c841c92d44588b55d6ba1627aa41065
@@ -3790,6 +3810,7 @@ C:\Users\Cezary\Google Drive\Programming\Java\.recommenders\snipmatch\repositori
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\2b\90f53ca7bae8001615e7bce91b49ff25
 C:\Users\Cezary\Google Drive\Programming\Java\card_game\bin\card_game\card$value.class
 C:\Users\Cezary\Google Drive\Programming\Java\.recommenders\snipmatch\repositories\http___git_eclipse_org_gitroot_recommenders_org_eclipse_recommenders_snipmatch_snippets_git\snippets\5811cbee-a0c5-4671-88ad-39ecf1168672.json
+C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\2f\873fdaa6a22ef0e128cb40bff657f3a3c185e6
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\e2\e0f0d1bf12ed00161e4e8a01ae76cb67
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\.git\objects\ee\bfa7d78cc0caca3cbec2c6a92a9d255ed1bba3
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\.git\objects\18\9b0d81c6f870c35ddbe9eb6ca6d1e176dd1062
@@ -4114,4 +4135,4 @@ C:\Users\Cezary\Google Drive\Programming\Java\.recommenders\snipmatch\repositori
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\e7\200194a7b8e8001615e7bce91b49ff25
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\.git\objects\a9\aaee477b77a438a8c8e192311812f01a0b79e6
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\.git\objects\bf\5a30e25e40b7d655673deb9b5c707410d2d29c
-4112
+4133
