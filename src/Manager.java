@@ -19,11 +19,10 @@ public class Manager {
 
 	static String path;
 
-	
 	static String openDir;
-	
+
 	HashMap<String, runVoid> runVoid = new HashMap<>();
-	
+
 	DataBase database = new DataBase();
 
 	Manager(String path) throws Exception {
@@ -236,14 +235,13 @@ public class Manager {
 
 	class goToc implements runVoid {
 
-		public void run(ArrayList<String> inn) {
+		public void run(ArrayList<String> inn) throws Exception {
+			path = (String) Toolkit.getDefaultToolkit().getSystemClipboard().getData(DataFlavor.stringFlavor);
+			if (new File(path).isDirectory()) {
 
-			try {
-				inn = new ArrayList<>();
-				inn.add((String) Toolkit.getDefaultToolkit().getSystemClipboard().getData(DataFlavor.stringFlavor));
-				runVoid.get("cd").run(inn);
+				System.out.println(path);
 
-			} catch (Exception e) {
+			} else {
 				System.out.println("No such directory");
 			}
 
@@ -278,7 +276,7 @@ public class Manager {
 			}
 
 		}
-		
+
 		public void help() {
 			// TODO Auto-generated method stub
 
@@ -332,7 +330,7 @@ public class Manager {
 
 		@Override
 		public void run(ArrayList<String> inn) throws Exception {
-			
+
 			database.writeToFile();
 			System.out.println("Exiting - Have a nice day");
 			System.exit(0);
