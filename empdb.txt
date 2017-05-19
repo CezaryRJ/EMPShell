@@ -1,8 +1,10 @@
 3
 312
 C:\Users\Cezary\Google Drive\Arkiv\MP3\FTL\26 - Zoltan (Battle).mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 1\ë?âäâJâi??â?.mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 2\Weight of the Worldü^ë?âîâ^Éó?Eâmë?.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\13. All Guns Blazing (Bonus Track).mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\NieR_Automata Original Soundtrack HACKIN\Weight of the WorldüF?Ü.mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\NieR_Automata Original Soundtrack HACKIN\ÉÝ??âgÉÝ??üF?Ü.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_RUNNI2.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Quake 2 OST\16 - Ground Zero.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\Overseer_-_Doomsday.mp3
@@ -10,44 +12,49 @@ C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\assets\sound\Login
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_E3M9.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Electronic Super Joy OST - Part II\08 - Vee.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Quake 2 OST\08 - Quake 2.mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\NieR_Automata Original Soundtrack HACKIN\?Iâ?â?âmë?üF?Ü.mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 3\ôbâôâ_?Fâ?ü^É»??.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_E1M4.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\FTL\02 - MilkyWay (Explore).mp3
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\assets\sound\1.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\Ahrix - Nova [NCS Release].mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 1\ÉÂâ}âî?oâdâ??ËÄv.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Electronic Super Joy OST - Part I\11 - Switchblade.mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 1\×B??âi???]ü^?XëJ.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\FTL\10 - Wasteland (Explore).mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Quake 2 OST\01 - Base.mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\NieR_Automata Original Soundtrack HACKIN\üuôâüvüF?Ü.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_BETWEE.mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 3\î?î?âVâ^????.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_E2M1.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Electronic Super Joy OST\Electronic Super Joy OST - Part I\01 - Destination.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\FTL\21 - Engi (Battle).mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Electronic Super Joy OST\Electronic Super Joy OST - Part I\05 - Fire Frost.mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 2\?­âJâVâC???ÝüF??.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_E2M8.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_THEDA3.mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 3\?Iâ?â?âmë?.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\FTL\14 - Federation.mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 3\??ÉÂâg???].mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 1\âGâ~ü[â?ü^âVâçâbâv.mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 2\???ÂâXâ?Ä?Ä?.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\Starcraft 2 Wings of Liberty OST - Heaven's Devils.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_DDTBL2.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Quake 2 OST\20 - The Gravity Well.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\The Witcher 3- Wild Hunt OST #41 - A Story You Wan't Believe (Extended OST).mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 3\?KâZâiÄÇ.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\FTL\17 - Cosmos (Battle).mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Quake 2 OST\07 - Factory.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\01. Sparta.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_E3M5.mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\NieR_Automata Original Soundtrack HACKIN\?VëÇÄ{É?üF?Ü.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_DOOM.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\[Electro] Nitro Fun - Cheat Codes [Monstercat Release].mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\NieR_Automata Original Soundtrack HACKIN\üuôâüvüF?Ü.mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 2\?äâîâ^ÉS.mp3
 C:\Users\Cezary\Google Drive\Arkiv\1500\oblig1\inter del 1.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_EVIL.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\FTL\03 - Civil (Explore).mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_STLKS3.mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 3\î?î?âVâ^????.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Electronic Super Joy OST - Part I\05 - Fire Frost.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Quake 2 OST\17 - Weapon.mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 2\Weight of the Worldü^ë?âîâ^Éó?Eâmë?.mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 2\?íÉ?âTâîâ^?X.mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 1\ÉÂâ}âî?oâdâ??ËÄv.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\M83 'Midnight City' Official video.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_E2M5.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\NieR- Automata OST -End of the Unknown (Adam & Eve Boss Theme).mp3
@@ -55,13 +62,13 @@ C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_COUNT2.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_MESSAG.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\FTL\12 - Void (Explore).mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Quake 2 OST\15 - Last Battle.mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\NieR_Automata Original Soundtrack HACKIN\âCâjâVâGâmâEâ^ü^Š???üF?Ü.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\07. The Last Stand.mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\NieR_Automata Original Soundtrack HACKIN\Weight of the WorldüF?Ü.mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 2\??âëâiâCÉ?ü^???Ý.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\FTL\09 - Colonial (Explore).mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\09. Shiroyama.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\Mystikal_-_Smashing_the_Gas.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_E3M1.mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\NieR_Automata Original Soundtrack HACKIN\??Éoâm?Lë»üF?Ü.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_SHAWN2.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_ROMER2.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_E1M7.mp3
@@ -70,25 +77,23 @@ C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_COUNTD.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_STALKS.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\FTL\05 - Deepspace (Explore).mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Electronic Super Joy OST - Part I\07 - Bestammelse.mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 1\ö?âVâLë?.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\FTL\24 - Rockmen (Battle).mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\NieR_Automata Original Soundtrack HACKIN\ÄŠâ???âCâ^???aüF?Ü.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\Redout soundtrack ost - Cairo 3.mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 3\??ÉÂâg???].mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 2\?Ë?íü^ë??ý???óô?ü^âGâ~üEâGâöâ@âôâX.mp3
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\assets\sound\LoginScreenLoop.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_ULTIMA.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Electronic Super Joy OST\Electronic Super Joy OST - Part II\02 - Green With Me.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Quake 2 OST\03 - Wasteland.mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\NieR_Automata Original Soundtrack HACKIN\?Iâ?â?âmë?üF?Ü.mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 1\??âëâiâCÉ?ü^âMâ^ü[.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Quake 2 OST\14 - Mutants.mp3
 C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\09 - Generic Techno.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Quake 2 OST\09 - Boss Battle.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\A-ha - Take On Me Official Music video.mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 2\?Sâeâ?öjë?âXâ???âL?ÉÉlü^ë÷?b.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\FTL\28 - Victory.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_E3M8.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_SHAWN.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Electronic Super Joy OST\Electronic Super Joy OST - Part II\03 - Endurance.mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 1\âIâoâAâ`âââôü^öjë?.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\31 - Damjan Mravunac - War 01 - Hero.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\FTL\18 - Deepspace (Battle).mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_E1M3.mp3
@@ -96,85 +101,80 @@ C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_THE_DA.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\06. Rorke's Drift.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Electronic Super Joy OST - Part I\10 - Revive.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\FTL\25 - Void (Battle).mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 3\ÉÝ??âgÉÝ??.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\FTL\04 - Cosmos (Explore).mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\FTL\13 - Zoltan (Explore).mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 1\?Ë?íü^??ü^âWâ?âjü[âNüEâjâRü[â?.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_THEDA2.mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 1\?VëÇÄ{É?.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_E2M9.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_DDTBL3.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_DOOM2.mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 3\âCâjâVâGâmâEâ^ü^Š???.mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 3\ÉÝ??âgÉÝ??.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\10. Winged Hussars.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Electronic Super Joy OST - Part I\02 - Flare.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\02. Last Dying Breath.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Electronic Super Joy OST\Electronic Super Joy OST - Part II\09 - Heavenrd3.mp3
 C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 3\Weight of the Worldü^Nouveau-FR Version.mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\NieR_Automata Original Soundtrack HACKIN\âCâjâVâGâmâEâ^ü^Š???üF?Ü.mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 3\ôbâôâ_?Fâ?ü^É»??.mp3
 C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\NieR_Automata Original Soundtrack HACKIN\ÉÂâ}âî?oâdâ??ËÄvüF?Ü.mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 3\?Iâ?â?âmë?.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\Dom Kane - Serial Number.mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 2\ÉXâmë???.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_STLKS2.mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 3\???mâ^â??a.mp3
 C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\04 - Darkas.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\08. Hill 3234.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_ADRIAN.mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 1\âIâoâAâ`âââôü^öjë?.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Electronic Super Joy OST - Part I\08 - Uprise.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\Hydrogen - M.O.O.N (Hotline Miami OST).mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 3\×B??âi???]ü^ÉëëJ.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Electronic Super Joy OST - Part II\09 - Heavenrd3.mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 2\?­âJâVâC???ÝüFë?üF?b.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\FTL\08 - Engi (Explore).mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 2\?äâîâ^ÉS.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\Electronic Super Joy - 06 - Shakestopper.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_E3M4.mp3
 C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\5.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\FTL\27 - Last Stand.mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 1\ôbâôâ_?Fâ?ü^????.mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 1\????âmÉF.mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\NieR_Automata Original Soundtrack HACKIN\ÉXâmë???üF?Ü.mp3
 C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\12 - OCP.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_E1M8.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Electronic Super Joy OST\Electronic Super Joy OST - Part I\04 - Darkas.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_TENSE.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\Timmy Trumpet Savage - Freaks (Official Video).mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_SHAWN3.mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\NieR_Automata Original Soundtrack HACKIN\??î`âm???HüF?Ü.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\Monsoon - Risk of Rain OST, Chris Christodoulou.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\The Witcher 3- Wild Hunt - Official Soundtrack #6 - Commanding the Fury.mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 1\?Ë?íü^??ü^âWâ?âjü[âNüEâjâRü[â?.mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 3\?KâZâiÄÇ.mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 1\?ÔâTâîâ^????ü^Ä?î§.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Electronic Super Joy OST\Electronic Super Joy OST - Part I\11 - Switchblade.mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 3\???mâ^â??a.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\Initial D 1st Stage Soundtrack -  DON'T STOP THE MUSIC.mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 2\?­âJâVâC???ÝüFë?üF?b.mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 2\?Ë?íü^ë??ý???óô?ü^âGâ~üEâGâöâ@âôâX.mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 1\ë?âäâJâi??â?.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Electronic Super Joy OST - Part II\03 - Endurance.mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 3\âGâ~ü[â?ü^ÉÔ?].mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\01 - Bexter - Nova.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\1010 - FantomenK - The Massacre.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_RUNNIN.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Electronic Super Joy OST\Electronic Super Joy OST - Part I\09 - Generic Techno.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_E2M4.mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 1\×B??âi???]ü^?XëJ.mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\NieR_Automata Original Soundtrack HACKIN\ÉÝ??âgÉÝ??üF?Ü.mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 2\ÉXâmë???.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Electronic Super Joy OST - Part I\06 - Shakestopper.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Electronic Super Joy OST - Part II\02 - Green With Me.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\FTL\07 - Mantis (Explore).mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 2\?­âJâVâC???ÝüF??.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_DDTBLU.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_E1M6.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_MESSG2.mp3
 C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 3\Weight of the Worldü^the End of YoRHa.mp3
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\assets\sound\DJ Sona Concussive (Bassnectar x Renholder).mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Quake 2 OST\04 - Prisons.mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 1\?VëÇÄ{É?.mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 2\?ÔâTâîâ^????ü^Ä?î§.mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 1\??Éoâm?Lë».mp3
 C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\11 - Switchblade.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_E2M3.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\SABATON - Coat of Arms (OFFICIAL ANIMATED VIDEO).mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\NieR_Automata Original Soundtrack HACKIN\?Sâeâ?öjë?âXâ???âL?ÉÉlü^ë÷?büF?Ü.mp3
 C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\08 - Uprise.mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 2\??î`âm???H.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\12. Camouflage (Bonus Track).mp3
 C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 1\Weight of the Worldü^English Version.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_INTER.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\Redout soundtrack ost - Cairo 2.mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 3\?÷ë?âm???¤.mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 1\??É?âiÄ×??.mp3
 C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\02 - Flare.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Quake 2 OST\13 - Heavy Weapons.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\01 - Rules of Nature (Platinum Mix).mp3
@@ -187,44 +187,40 @@ C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_BUNNY.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Electronic Super Joy OST - Part I\09 - Generic Techno.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Electronic Super Joy OST - Part II\04 - Bloom.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\Need_for_Speed_Underground_1_Soundtrack-Lostprophets-Ride.mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\NieR_Automata Original Soundtrack HACKIN\??î`âm???HüF?Ü.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Electronic Super Joy OST\Electronic Super Joy OST - Part II\01 - RPM.mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\NieR_Automata Original Soundtrack HACKIN\?­âJâVâC???ÝüF?Ü.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\Descent Into Cerberon - Sonic Mayhem.mp3
 C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\06 - Shakestopper.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\FTL\19 - Debris (Battle).mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Electronic Super Joy OST\Electronic Super Joy OST - Part I\03 - This Sound.mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 1\ôbâôâ_?Fâ?ü^????.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_E1M2.mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\NieR_Automata Original Soundtrack HACKIN\ö?âVâLë?üF?Ü.mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 2\ÄŠâ???âCâ^???a.mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 3\×B??âi???]ü^ÉëëJ.mp3
 C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\05 - Fire Frost.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\Boney M - One Way Ticket.mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 2\âpâXâJâ?.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Quake 2 OST\10 - The Makron.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Electronic Super Joy OST\Electronic Super Joy OST - Part I\10 - Revive.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\Caravan Palace - Clash (Original Mix).mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_DM2INT.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Electronic Super Joy OST - Part II\05 - Valiant.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\FTL\15 - MilkyWay (Battle).mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 2\?íÉ?âTâîâ^?X.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\The Witcher 3- Wild Hunt - Official Soundtrack #23 - Forged in Fire.mp3
 C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\12._Original_Ver..mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_E2M7.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Electronic Super Joy OST - Part II\10 - Futureshock.mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 1\?ÔâTâîâ^????ü^Ä?î§.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\Carpenter Brut - Enraged (from Furi original soundtrack).mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\The Witcher 3- Wild Hunt OST #39 - Back on the Path (Extended OST).mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 2\??ôë.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_E1M9.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\Good For Health, Bad For Education (VA-11 HALL-A).mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 2\?ÔâTâîâ^????ü^Ä?î§.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_E3M3.mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 1\âGâ~ü[â?ü^âVâçâbâv.mp3
 C:\Users\Cezary\Google Drive\Arkiv\1500\oblig1\CezaryRJ_1500_Oblig1\inter del 2.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Electronic Super Joy OST\Electronic Super Joy OST - Part I\02 - Flare.mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 2\ÄŠâ???âCâ^???a.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\S4_League_Soundtrack_-_NB_Power.mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\NieR_Automata Original Soundtrack HACKIN\??Éoâm?Lë»üF?Ü.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\Nate_Dogg_-_Keep_It_Coming.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Electronic Super Joy OST\Electronic Super Joy OST - Part II\07 - Call of the Wild.mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 1\??âëâiâCÉ?ü^âMâ^ü[.mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\NieR_Automata Original Soundtrack HACKIN\?Sâeâ?öjë?âXâ???âL?ÉÉlü^ë÷?büF?Ü.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_DM2TTL.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\Backup 2 - Monster Bounce(Season 4 World Championship).mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\Redout soundtrack ost - Abruzzo 1.mp3
@@ -233,13 +229,14 @@ C:\Users\Cezary\Google Drive\OST\carmsc\03. Blood Of Bannockburn.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\Initial D × Running in the 90'S.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\FTL\23 - Wasteland (Battle).mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Electronic Super Joy OST\Electronic Super Joy OST - Part I\06 - Shakestopper.mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 3\?o??âm????.mp3
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\assets\sound\Riot Games - Freljord Theme.mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 3\?Uâ?âm?Ú??.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\Particle tests (15) 3D Music Visualizer - Full HD.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_OPENIN.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Quake 2 OST\02 - Action.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_E1M5.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Electronic Super Joy OST - Part I\04 - Darkas.mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 3\?Uâ?âm?Ú??.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_DEAD2.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Electronic Super Joy OST\Electronic Super Joy OST - Part II\06 - Imagination.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\Redout soundtrack ost - Alaska 2.mp3
@@ -248,19 +245,18 @@ C:\Users\Cezary\Google Drive\Arkiv\MP3\Electronic Super Joy OST - Part II\06 - I
 C:\Users\Cezary\Google Drive\Arkiv\MP3\FTL\22 - Colonial (Battle).mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Quake 2 OST\05 - Mines.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Quake 2 OST\12 - Industry.mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 2\???ÂâXâ?Ä?Ä?.mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\NieR_Automata Original Soundtrack HACKIN\ö?âVâLë?üF?Ü.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Electronic Super Joy OST - Part I\12 - OCP.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\Snoop Dogg Smoke weed every day (dubstep remix).mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 1\??Éoâm?Lë».mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\NieR_Automata Original Soundtrack HACKIN\ÄŠâ???âCâ^???aüF?Ü.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\FTL\01 - Space Cruise.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Electronic Super Joy OST\Electronic Super Joy OST - Part II\08 - Vee.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\The Witcher 3- Wild Hunt - Official Soundtrack #26 - Drink Up, There's More!.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_IN_CIT.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Electronic Super Joy OST\Electronic Super Joy OST - Part I\07 - Bestammelse.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\Initial D 1st Stage Soundtrack -  GET ME POWER.mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\NieR_Automata Original Soundtrack HACKIN\???ÂâXâ?Ä?Ä?üF?Ü.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\FTL\16 - Civil (Battle).mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\NieR_Automata Original Soundtrack HACKIN\?VëÇÄ{É?üF?Ü.mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\NieR_Automata Original Soundtrack HACKIN\???ÂâXâ?Ä?Ä?üF?Ü.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\02 - Planetboom - SuperSonic.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Electronic Super Joy OST - Part II\01 - RPM.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_E2M2.mp3
@@ -268,9 +264,12 @@ C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_DEAD.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\Initial D 1st Stage Soundtrack -  BACK ON THE ROCKS.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\05. The Lost Battalion.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Electronic Super Joy OST - Part II\07 - Call of the Wild.mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 3\âGâ~ü[â?ü^ÉÔ?].mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 3\?÷ë?âm???¤.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Quake 2 OST\19 - Zero Hour 2.mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 3\?o??âm????.mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\NieR_Automata Original Soundtrack HACKIN\?­âJâVâC???ÝüF?Ü.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\Boney M - Rasputin.mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 2\?Sâeâ?öjë?âXâ???âL?ÉÉlü^ë÷?b.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\Redout soundtrack ost - Volcano 1.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_E3M6.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_ROMERO.mp3
@@ -281,16 +280,17 @@ C:\Users\Cezary\Google Drive\Arkiv\MP3\Electronic Super Joy OST\Electronic Super
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Electronic Super Joy OST\Electronic Super Joy OST - Part II\04 - Bloom.mp3
 C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\03 - This Sound.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\Gigi D'Agostino - The Riddle ( Official Video ).mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\NieR_Automata Original Soundtrack HACKIN\ÉXâmë???üF?Ü.mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 1\????âmÉF.mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 2\??âëâiâCÉ?ü^???Ý.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Electronic Super Joy OST - Part I\03 - This Sound.mp3
 C:\Users\Cezary\Google Drive\Arkiv\1500\oblig1\inter del 2.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\Falconshield - Blades in the Dark (League of Legends music - Nocturne).mp3
 C:\Users\Cezary\Google Drive\Arkiv\1500\oblig1\CezaryRJ_1500_Oblig1\inter del 1.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_E1M1.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Quake 2 OST\06 - The Stroggs.mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 2\??î`âm???H.mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 1\ö?âVâLë?.mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\NieR_Automata Original Soundtrack HACKIN\?ÔâTâîâ^????üF?Ü.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Electronic Super Joy OST\Electronic Super Joy OST - Part II\10 - Futureshock.mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 2\âpâXâJâ?.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Brutal doom ost\D_E2M6.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\Initial D 1st Stage Soundtrack - SPACE BOY.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\Doom OST - E1M1 - At Doom's Gate.mp3
@@ -306,12 +306,12 @@ C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 3\üuôâüv
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Electronic Super Joy OST\Electronic Super Joy OST - Part II\05 - Valiant.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\FTL\29 - Horror.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\Electronic Super Joy OST\Electronic Super Joy OST - Part I\12 - OCP.mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 1\??É?âiÄ×??.mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 3\âCâjâVâGâmâEâ^ü^Š???.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\DJ Sona Concussive (Bassnectar x Renholder).mp3
+C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\Disc 2\??ôë.mp3
 C:\Users\Cezary\Google Drive\OST\carmsc\Redout soundtrack ost - Alaska 1.mp3
 C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\07 - Bestammelse.mp3
 C:\Users\Cezary\Google Drive\Arkiv\MP3\FTL\20 - Mantis (Battle).mp3
-C:\Users\Cezary\Google Drive\OST\NieR Automata Original Soundtrack\NieR_Automata Original Soundtrack HACKIN\?ÔâTâîâ^????üF?Ü.mp3
 6209
 C:\Users\Cezary\Google Drive\Arkiv\1aNOT WORK\Ny mappe\ting\Amazon Hotel - Chapter 1-2\Amazon Hotel 1\AMAZON-HOTEL-014_shentai.org.jpg
 C:\Users\Cezary\Google Drive\Arkiv\1aNOT WORK\Ny mappe\ting\himacutee_and_miku_by_jcdr-damu8oe.png
@@ -6522,7 +6522,7 @@ C:\Users\Cezary\Google Drive\Arkiv\1aNOT WORK\Ny mappe\real 23\A277_00537303_p0_
 C:\Users\Cezary\Google Drive\Arkiv\1aNOT WORK\Ny mappe\ting\valentines2016_by_lakehylia-d9rt6hb.jpg
 C:\Users\Cezary\Google Drive\Arkiv\1aNOT WORK\Ny mappe\ting\ghgfhfghfgh\Can+t+stop+the+rock+_e94904a6828a535674dd343ab625f992.jpg
 C:\Users\Cezary\Google Drive\Arkiv\1aNOT WORK\Ny mappe\ting\platonic_loves_by_mangrowing-dasbvy3.png
-6521
+6526
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\8b\901fa0b4170000171a8fc6f0aff92bc8
 C:\Users\Cezary\Google Drive\Programming\C\.metadata\.plugins\org.eclipse.cdt.make.core\specs.c
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\12\104cf5719e3c001711d9d99986c44dab
@@ -6599,7 +6599,6 @@ C:\Users\Cezary\Google Drive\Programming\Java\.recommenders\snipmatch\repositori
 C:\Users\Cezary\Google Drive\Programming\Java\Radix_sort\.settings\org.eclipse.core.resources.prefs
 C:\Users\Cezary\Google Drive\Programming\Java\Turnus planner\bin\test2\test.txt
 C:\Users\Cezary\Google Drive\Programming\Java\Turnus planner\src\workerbase\Fillip.txt
-C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\21. ??????.flac
 C:\Users\Cezary\Google Drive\Doom collection\Brutal doom\auto1.zds
 C:\Users\Cezary\Google Drive\Programming\Java\Robol\.git\COMMIT_EDITMSG
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\.git\logs\refs\heads\Parser
@@ -6757,7 +6756,6 @@ C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\.git\objects
 C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\description
 C:\Users\Cezary\Google Drive\Arkiv\Skole\Quake 2\baseq2\video\end.cin
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\45\c05112e5763c001711d9d99986c44dab
-C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\23. ?????.flac
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.ltk.core.refactoring\.refactorings\card_game\2017\1\2\refactorings.history
 C:\Users\Cezary\Google Drive\Programming\Java\Sudoku-loser\brett2.txt
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\src\Stats\StatInterface.java
@@ -6849,6 +6847,7 @@ C:\Users\Cezary\Google Drive\Arkiv\Skole\Quake 2\quake2--START.exe
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\test1.log
 C:\Users\Cezary\Google Drive\Arkiv\Skole\VG2\Fysikk\fysikk ting.docx
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\4b\f07300093204001710cbdfd103b872ea
+C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\22. ???????.flac
 C:\Users\Cezary\Google Drive\OST\NieR Gestalt & Replicant\Disc 2\(07) Repose - Keiichi Okabe.flac
 C:\Users\Cezary\Google Drive\Programming\Java\.recommenders\snipmatch\repositories\http___git_eclipse_org_gitroot_recommenders_org_eclipse_recommenders_snipmatch_snippets_git\.git\index
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\33\a0272a32163c001711d9d99986c44dab
@@ -6885,6 +6884,7 @@ C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.cor
 C:\Users\Cezary\Google Drive\Arkiv\Skole\VG3\HISTORIE\HISTORIE NOTAT TING.docx
 C:\Users\Cezary\Google Drive\Arkiv\Skole\VG1\Matte\eksamensutskrift STA0971.docx
 C:\Users\Cezary\Google Drive\Arkiv\Skole\Quake 2\baseq2\players\male\scout_i.pcx
+C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\23. ?????.flac
 C:\Users\Cezary\Google Drive\Arkiv\Skole\VG1\Smafunsfag\Kariere prosjekt.docx
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\.git\objects\ed\5c5988964013642674ce309c49e4d7076ed07a
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\.git\objects\65\0ca85deca95558ab87a6f952cf91581e8edf39
@@ -6939,7 +6939,6 @@ C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\.git\objects
 C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\src\Main.class
 C:\Users\Cezary\Google Drive\Programming\C\.metadata\.plugins\org.eclipse.cdt.managedbuilder.core\spec.c
 C:\Users\Cezary\Google Drive\Arkiv\Skole\Quake 2\DOCS\quake2_manual\intel_brief8.html
-C:\Users\Cezary\Google Drive\Arkiv\1aNOT WORK\Ny mappe\ting\ghgfhfghfgh\Ahri-League-of-Legends-???????-Sona-2062305.jpeg
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.debug.core\.launches\ObligBTest.launch
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.jdt.launching\.install.xml
 C:\Users\Cezary\Google Drive\Programming\Java\Turnus planner\bin\test1\18.txt
@@ -7003,7 +7002,6 @@ C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.cor
 C:\Users\Cezary\Google Drive\Arkiv\31000oblig2\inf3100001.pdf
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\.git\objects\a3\bf8f0af3267922bf983382aeea8717459f2bdf (1)
 C:\Users\Cezary\Google Drive\Arkiv\2810\b.pdf
-C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\11. ???.flac
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\.git\objects\f2\d94799cadbcc016f8d9931879012bc50a72eb1
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\.git\objects\05\b17c3074999e466f1049d78af7698f5f0107a5
 C:\Users\Cezary\Google Drive\Programming\Java\.recommenders\snipmatch\repositories\http___git_eclipse_org_gitroot_recommenders_org_eclipse_recommenders_snipmatch_snippets_git\snippets\17c830c5-5b9b-391e-b6ee-a19d227727c9.json
@@ -7033,7 +7031,6 @@ C:\Users\Cezary\Google Drive\Programming\C\.metadata\.plugins\org.eclipse.core.r
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.ltk.core.refactoring\.refactorings\finnStorste\2017\3\11\refactorings.history
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\.git\objects\cf\5b9649ae223a669fb52bd314002e88697f2792
 C:\Users\Cezary\Google Drive\Programming\Java\MorseL\.git\refs\remotes\origin\master
-C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\01. ???.flac
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\.git\objects\ac\d5e511d3abe65a9348d7ed93fc8b4dd92ffd63
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\.git\info\exclude
 C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\16\8b0c2c06c71e8889d37826210ebbc406414a4e
@@ -7121,7 +7118,6 @@ C:\Users\Cezary\Google Drive\Arkiv\Skole\VG1\Naturfag\Funksjonelle grupper.docx
 C:\Users\Cezary\Google Drive\Programming\Java\MorseL\.git\objects\68\be48dc67a9b4f4c1cc04c6c8ff3f2417d64118
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\4f\10426d1c3b3700171e419eda3d0fc41d
 C:\Users\Cezary\Google Drive\Arkiv\Skole\VG3\Prøve i Religion og etikk tirsdag 26.11.13.docx
-C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\03. ????.flac
 C:\Users\Cezary\Google Drive\Arkiv\Skole\VG1\Norsk\Penelope og Elinor.docx
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\.git\objects\2f\78924bfb8a4dfd2388a4113b2ba1e8d3ab1052
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\61\800d45440eed00161e4e8a01ae76cb67
@@ -7155,6 +7151,7 @@ C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\.git\objects
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\bin\test.class
 C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\bin\Manager$helper.class
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\8\b09ee8f3b2e8001615e7bce91b49ff25
+C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\26. ???????(movie edit.).flac
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\.git\objects\d8\b1db540f6e9328688806505c8bcf20e94ec730
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\64\0058b54eb9e8001615e7bce91b49ff25
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.runtime\.settings\ccw.core.prefs
@@ -7359,12 +7356,14 @@ C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.cor
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\.git\objects\bc\de7ee0d52916c24f9e443c2813f22bc62ed777
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\.git\objects\92\a80b16395ee63e8ede5d9cc2befd61f279e614
 C:\Users\Cezary\Google Drive\Programming\Java\Turnus planner\.git\objects\df\7d2a91a2a06943dde51835c15f3aa0a47b05bf
+C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\17. ??????.flac
 C:\Users\Cezary\Google Drive\Arkiv\Skole\Quake 2\DOCS\quake2_manual\intel_brief.html
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\af\90150efc933c001711d9d99986c44dab
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\9f\6063151fc73900171a7ee083befdb8c0
 C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\bf\71fd8d72706819e9918f84412916ec39fef591
 C:\Users\Cezary\Google Drive\Programming\Java\Turnus planner\.git\objects\95\2b8d506bf490445a4d20b1bf6f6cf50b14509b
 C:\Users\Cezary\Google Drive\Arkiv\Skole\VG3\NORSK\Norsk ting\Heldags 17.10 elevsvar.pdf
+C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\09. ???.flac
 C:\Users\Cezary\Google Drive\Programming\Java\Turnus planner\.git\objects\cf\61b64f034256467daaf3958494ba2f4fd89a39
 C:\Users\Cezary\Google Drive\Programming\Java\Turnus planner\src\workerbase\Lucian.txt
 C:\Users\Cezary\Google Drive\Programming\Java\.recommenders\snipmatch\repositories\http___git_eclipse_org_gitroot_recommenders_org_eclipse_recommenders_snipmatch_snippets_git\snippets\f3d89c9f-dc68-4d76-b5e9-5672d763d20f.json
@@ -7385,6 +7384,7 @@ C:\Users\Cezary\Google Drive\Programming\C\.metadata\.plugins\org.eclipse.cdt.ma
 C:\Users\Cezary\Google Drive\Programming\Java\Turnus planner\src\test1\55.txt
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\.git\objects\41\3c8efd63f7cce744a6991122b4fb09218e2f02
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\src\Stats\AD.java
+C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\13. ????.flac
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\.git\objects\87\d02588afef89ca43a640ac1eb9e79e30f985d5
 C:\Users\Cezary\Google Drive\Arkiv\Skole\Quake 2\baseq2\save\save12\game.ssv
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\84\7089c5a5e503001710cbdfd103b872ea
@@ -7488,6 +7488,7 @@ C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\.git\objects
 C:\Users\Cezary\Google Drive\pro cv.odt
 C:\Users\Cezary\Google Drive\Programming\Java\card_game\bin\rules\assignPlayerCount.class
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\.git\objects\98\50c79417e00a3045bb6de5e74fcd05b79436e4
+C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\10. ???.flac
 C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\fd\6d3940cab05721e7ea1300ee0f0d39a24fdd99
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\f8\103223e3140000171a8fc6f0aff92bc8
 C:\Users\Cezary\Google Drive\Programming\Java\Turnus planner\.git\objects\76\1a9aa9e3d9c6c9e04d4e745d314bc8f5a1a93e
@@ -7623,7 +7624,6 @@ C:\Users\Cezary\Google Drive\Programming\Java\Sudoku-loser\.git\objects\7c\698d5
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\80\1064daad1a0000171a8fc6f0aff92bc8
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\.git\objects\e0\d673d08a89e66d44ec3711997237e39ed64ca9
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\74\80c17e06cdec00161e4e8a01ae76cb67
-C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\15. ???.flac
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\parser\TermOpr.class
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\.git\objects\2c\2d48efebd102adf1e305763bafad7333a793f5
 C:\Users\Cezary\Google Drive\Programming\Java\Turnus planner\bin\test1\75.txt
@@ -7670,6 +7670,7 @@ C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.ltk
 C:\Users\Cezary\Google Drive\Arkiv\1aNOT WORK\Ny mappe\ting\1370391282935.gif
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\e9\d04314dfdb3800171a7ee083befdb8c0
 C:\Users\Cezary\Google Drive\Programming\Java\MorseL\bin\ChatRoom.class
+C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\01. ???.flac
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\6e\705ea7cb1b0000171a8fc6f0aff92bc8
 C:\Users\Cezary\Google Drive\Arkiv\Skole\VG2\Matte\trekant ting.ggb
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\.git\objects\76\77fecd31c136c00127be6711176e100496c1d9
@@ -8137,12 +8138,12 @@ C:\Users\Cezary\Google Drive\Arkiv\1aNOT WORK\Ny mappe\ting\ghgfhfghfgh\SWF\Wish
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\6d\301eb0e3bae8001615e7bce91b49ff25
 C:\Users\Cezary\Google Drive\Programming\C\.metadata\.plugins\org.eclipse.ltk.core.refactoring\.refactorings\.workspace\2016\8\34\refactorings.index
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.ltk.core.refactoring\.refactorings\EMPShell\2017\4\15\refactorings.index
-C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\05. ?????.flac
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\5d\208c6aae6a050017182fb06d2e18656f
 C:\Users\Cezary\Google Drive\Programming\Java\Robol\src\move.java
 C:\Users\Cezary\Google Drive\Programming\Java\testing grounds\src\robol
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\95\8011c82311ed00161e4e8a01ae76cb67
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\.git\objects\d8\b1db540f6e9328688806505c8bcf20e94ec730
+C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\06. ????????.flac
 C:\Users\Cezary\Google Drive\Arkiv\1aNOT WORK\Ny mappe\ting\marusya_gif_by_akiranime-d8ge0sf.gif
 C:\Users\Cezary\Google Drive\Programming\Java\Robol\.git\objects\c9\82edbdf1bb3c4cd6db24713337d722aa571078
 C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\bin\Crawler$classifier$AudioAdder.class
@@ -8469,6 +8470,7 @@ C:\Users\Cezary\Google Drive\Arkiv\Skole\VG2\TOF\oppgave 2b.rbt
 C:\Users\Cezary\Google Drive\Arkiv\Skole\VG3\FYSIKK\test 3_files\ga.js
 C:\Users\Cezary\Google Drive\Programming\C\.metadata\.plugins\org.eclipse.debug.core\.launches\gdgdfgdfg.exe.launch
 C:\Users\Cezary\Google Drive\Programming\C\1060Oblig3\.project
+C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\3c\2bddeb546208ff73460af31d4d031af670b505
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\a3\505a4cefd0ec00161e4e8a01ae76cb67
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\.git\objects\72\2dc8bb182ac90c04f0fa450eee563252189653
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\e4\b0e9430934380017142cd9486e12983c
@@ -8644,7 +8646,6 @@ C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\74\a64416678
 C:\Users\Cezary\Google Drive\Arkiv\1aNOT WORK\Ny mappe\203717.mp4
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\.git\objects\b9\03a58971a6021b57290b07dd033423604dd0c9
 C:\Users\Cezary\Google Drive\Arkiv\1aNOT WORK\Ny mappe\ting\Amazon Hotel - Chapter 1-2\WelcometoChastity2.pdf
-C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\16. ????.flac
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\2d\b08096e05f370017142cd9486e12983c
 C:\Users\Cezary\Google Drive\Programming\Java\card_game\.git\COMMIT_EDITMSG
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\f9\f02aad88bae8001615e7bce91b49ff25
@@ -8921,7 +8922,6 @@ C:\Users\Cezary\Google Drive\Arkiv\1aNOT WORK\Ny mappe\ting\ghgfhfghfgh\SWF\BAB\
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\bin\teammgmt\Rooster.class
 C:\Users\Cezary\Google Drive\Programming\Java\Server_Client_test\.gitattributes
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\75\60cea4a312ed00161e4e8a01ae76cb67
-C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\27. ???????(movie ver.).flac
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\0\70379b1e923c001711d9d99986c44dab
 C:\Users\Cezary\Google Drive\Programming\C\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.xtend.core.Xtend.prefs
 C:\Users\Cezary\Google Drive\Programming\Java\Turnus planner\bin\workerbase\Per.txt
@@ -9042,6 +9042,7 @@ C:\Users\Cezary\Google Drive\Programming\Java\.recommenders\snipmatch\repositori
 C:\Users\Cezary\Google Drive\Arkiv\Skole\VG1\Norsk\Nynorsk_litteratur.docx
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\3e\601179b05d370017142cd9486e12983c
 C:\Users\Cezary\Google Drive\Programming\Java\Turnus planner\.git\refs\heads\master
+C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\04. ????????.flac
 C:\Users\Cezary\Google Drive\OST\NieR Gestalt & Replicant\Disc 2\(05) His Dream - Keiichi Okabe.flac
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\src\Stats\HP.java
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.lock
@@ -9052,6 +9053,7 @@ C:\Users\Cezary\Google Drive\Programming\Java\Protein_Synthesys\src\Cell_core.ja
 C:\Users\Cezary\Google Drive\Programming\Java\MorseL\bin\main.class
 C:\Users\Cezary\Google Drive\Arkiv\1aNOT WORK\Ny mappe\BE Story club\Welcome to Chastity 1-13.pdf
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\e6\80794e343704001710cbdfd103b872ea
+C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\24. ?????(movie ver,).flac
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\a5\a09443c11e0000171a8fc6f0aff92bc8
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\.git\objects\95\cd20b8757dfab03a128a367dacef51f3130b0e
 C:\Users\Cezary\Google Drive\Arkiv\Skole\Quake 2\baseq2\video\eou2_.cin
@@ -9127,6 +9129,7 @@ C:\Users\Cezary\Google Drive\Programming\Java\Robol\.git\objects\28\5288f18f3f96
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\bin\Items\BFsword.class
 C:\Users\Cezary\Google Drive\Programming\C\.metadata\.plugins\org.eclipse.core.runtime\.settings\de.walware.statet.r.ui.prefs
 C:\Users\Cezary\Google Drive\Arkiv\Skole\VG1\Norsk\nynorsk novelle som sikkert er sykt dårlig.docx
+C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\14. ????.flac
 C:\Users\Cezary\Google Drive\Programming\Java\finnStorste\.classpath
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\35\30b042576a050017182fb06d2e18656f
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\.git\objects\74\7157ce6e51ea9e2910576673af22ea78f8d553
@@ -9212,6 +9215,7 @@ C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.cor
 C:\Users\Cezary\Google Drive\Programming\Java\.recommenders\snipmatch\repositories\http___git_eclipse_org_gitroot_recommenders_org_eclipse_recommenders_snipmatch_snippets_git\.git\logs\refs\heads\format-5
 C:\Users\Cezary\Google Drive\Programming\Java\EratosthenesSil\.settings\org.eclipse.jdt.core.prefs
 C:\Users\Cezary\Google Drive\OST\NieR Gestalt & Replicant\Disc 1\(10) Song of the Ancients , Popola - Keiichi Okabe.flac
+C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\20. ????.flac
 C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\de\0096197efdb11b345dc54359b711c38e9e2b75
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\ab\d04902811a0000171a8fc6f0aff92bc8
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\parser\VarDecl.class
@@ -9244,7 +9248,6 @@ C:\Users\Cezary\Google Drive\Arkiv\1aNOT WORK\Ny mappe\ting\ghgfhfghfgh\SWF\Perf
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\.git\objects\38\db4b1d85a0d381230ef170a22a26f07bee8e52
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\.git\objects\62\6640b4169955020e5a530065ac1abe31688672
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\.git\objects\46\c90e286a75f0a7a40f36f147a437d03482c0f5
-C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\22. ???????.flac
 C:\Users\Cezary\Google Drive\Programming\Java\EratosthenesSil\src\Rapport.txt
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\18\702dada9363700171e419eda3d0fc41d
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.jdt.core\3878457715.index
@@ -9350,10 +9353,10 @@ C:\Users\Cezary\Google Drive\Arkiv\Skole\VG3\Gym\Øktplan koordinasjon 28102013 (
 C:\Users\Cezary\Google Drive\Arkiv\Skole\Quake 2\baseq2\save\quick\mine1.sav
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\e7\6026e83d1f0000171a8fc6f0aff92bc8
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\1e\e02a9372b9e8001615e7bce91b49ff25
-C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\12. ?????????.flac
 C:\Users\Cezary\Google Drive\Arkiv\Skole\Quake 2\baseq2\video\idlog.cin
 C:\Users\Cezary\Google Drive\Programming\Java\Server_Client_test\.git\objects\d1\1788ef75dd28ea1401da5355246e03e6892669
 C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\26\10ef670f96c451b2c1a2896587e2ecdcea093a
+C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\27. ???????(movie ver.).flac
 C:\Users\Cezary\Google Drive\Arkiv\Skole\VG2\Norsk\norsk ting\Kap. 8. Renessansen.pptx
 C:\Users\Cezary\Google Drive\Arkiv\1500\Innlevering4\cezaryrj_ovelse_4.zip
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\74\e0e5c814cdec00161e4e8a01ae76cb67
@@ -9638,6 +9641,7 @@ C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.cor
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\f9\b09a760f0f0000171a8fc6f0aff92bc8
 C:\Users\Cezary\Google Drive\Programming\Java\Turnus planner\src\test1\50.txt
 C:\Users\Cezary\Google Drive\Arkiv\1aNOT WORK\Ny mappe\ting\ghgfhfghfgh\SWF\BAB\BecomingABridesmaid11_Chaphjnetjetjetjtyegjme6juegjmn356urtf.swf
+C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\05. ?????.flac
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\.git\config
 C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\ab\d7a83721e9c7b5974b2fec6b76a39877e02972
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.projects\TXT_editor\.markers.snap
@@ -9645,7 +9649,6 @@ C:\Users\Cezary\Google Drive\Programming\Java\MorseL\.git\objects\40\2dc694bb35e
 C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\67\8b7285860c57cd62dfcc1962c7c93b7e468532
 C:\Users\Cezary\Google Drive\Arkiv\Skole\VG2\Spansk\randmom notat 1.docx
 C:\Users\Cezary\Google Drive\Programming\Java\MorseL\.git\hooks\README.sample
-C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\02. ?????.flac
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\.git\objects\f1\12887f807ad457524b5299d13c0717f93dbb21
 C:\Users\Cezary\Google Drive\Programming\Java\Chat\.git\objects\89\f023483d656805e3416cacd692850ff8b90a10
 C:\Users\Cezary\Google Drive\Arkiv\Skole\VG1\Matte\8.28d.ggb
@@ -9760,7 +9763,6 @@ C:\Users\Cezary\Google Drive\Arkiv\Skole\VG3\NORSK\Norsk ting\ny_kap3c_spraakleg
 C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\ORIG_HEAD
 C:\Users\Cezary\Google Drive\Arkiv\1010Oblig10\src\Kolonne.java
 C:\Users\Cezary\Google Drive\Arkiv\1aNOT WORK\Ny mappe\ting\SWF\YouTakeItYouWearIt.swf
-C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\07. ??????.flac
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\c5\70949fa5f103001710cbdfd103b872ea
 C:\Users\Cezary\Google Drive\Programming\Java\TXT_editor\.settings\org.eclipse.jdt.core.prefs
 C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\logs\HEAD
@@ -9769,6 +9771,7 @@ C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.cor
 C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\0b\2d9af3cf413e8c466f0720e5907cd2225f50e3
 C:\Users\Cezary\Google Drive\Programming\Java\Turnus planner\.git\objects\15\e380b9aa65c1a5eda8585e7a3290f8f1a85d2b
 C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\c3\4e4cc9178a4c4a2ca1ea970ed3143996f37a22
+C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\03. ????.flac
 C:\Users\Cezary\Google Drive\Programming\Java\Turnus planner\src\test1\72.txt
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.ltk.core.refactoring\.refactorings\EMPShell\2017\4\16\refactorings.history
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\.git\objects\56\e2df27c8d17243cb03cce18b25887dfed05bab
@@ -9810,7 +9813,6 @@ C:\Users\Cezary\Google Drive\Arkiv\1aNOT WORK\Ny mappe\ting\ghgfhfghfgh\SWF\SFS\
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\67\807e0ac28903001710cbdfd103b872ea
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\14\502ec074e703001710cbdfd103b872ea
 C:\Users\Cezary\Google Drive\Programming\Java\card_game\.gitignore
-C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\06. ????????.flac
 C:\Users\Cezary\Google Drive\Programming\Java\card_game\.git\objects\89\09cfb429850172e8f85b4638cb099a4ddeb3b9
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\.git\objects\04\9b3fba0444adee5838ddfbbfe725973fd6f0ad
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\.git\objects\b7\494e70b9ddb432aeec5faec17e2c0b65916770
@@ -9864,7 +9866,6 @@ C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.cor
 C:\Users\Cezary\Google Drive\Arkiv\Skole\Quake 2\DOCS\Release Notes.doc
 C:\Users\Cezary\Google Drive\Arkiv\Skole\VG3\NORSK\Ny mappe\Kap. 1 Dikterne realismen og naturalismen.pptx
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\e9\704ceb41963c001711d9d99986c44dab
-C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\24. ?????(movie ver,).flac
 C:\Users\Cezary\Google Drive\Arkiv\Skole\VG2\Norsk\norsk ting\GetFile2.pdf
 C:\Users\Cezary\Google Drive\Programming\Java\Chat\.git\refs\heads\master
 C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\95\516f01a9d8db46abb6ff669d34fb0f8e8a7afc
@@ -10090,7 +10091,6 @@ C:\Users\Cezary\Google Drive\Arkiv\1010Oblig10\src\Brett.java
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\.git\logs\refs\heads\Parser
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\.git\objects\21\c1ed667cb3fd7e0c43154578e4df0593a21781
 C:\Users\Cezary\Google Drive\Arkiv\2220Oblig1\bin\Node.class
-C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\25. ???2.flac
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\.git\description
 C:\Users\Cezary\Google Drive\Programming\Java\Sudoku-loser\src\Main.java
 C:\Users\Cezary\Google Drive\Programming\Java\.recommenders\snipmatch\repositories\http___git_eclipse_org_gitroot_recommenders_org_eclipse_recommenders_snipmatch_snippets_git\snippets\b942050f-3b6e-33b4-99a2-1792309ebb4d.json
@@ -10319,6 +10319,7 @@ C:\Users\Cezary\Google Drive\Arkiv\Skole\Quake 2\DOCS\quake2_manual\images\silen
 C:\Users\Cezary\Google Drive\Arkiv\1aNOT WORK\Ny mappe\ting\ffgfdgd\Thumbs.db
 C:\Users\Cezary\Google Drive\Arkiv\eksøving.rkt
 C:\Users\Cezary\Google Drive\Arkiv\Skole\Quake 2\baseq2\save\save1\jail1.sv2
+C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\12. ?????????.flac
 C:\Users\Cezary\Google Drive\Programming\Java\Turnus planner\bin\test1\23.txt
 C:\Users\Cezary\Google Drive\Arkiv\1aNOT WORK\Ny mappe\ting\ghgfhfghfgh\SWF\awk\Awakening4_Part1_hgwhw4rhnbwrjmnrthnwrn.swf
 C:\Users\Cezary\Google Drive\Arkiv\2220Oblig2\2220Oblig2.iml
@@ -10398,6 +10399,7 @@ C:\Users\Cezary\Google Drive\Programming\Java\KonveksInhyll\bin\TegnUt$Graph.cla
 C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\8d\35965fe819090753ace2f157ca36f0ee79b28f
 C:\Users\Cezary\Google Drive\Programming\Java\.recommenders\snipmatch\repositories\http___git_eclipse_org_gitroot_recommenders_org_eclipse_recommenders_snipmatch_snippets_git\snippets\183c36b0-195e-3d54-85c2-de6a904d57ba.json
 C:\Users\Cezary\Google Drive\Arkiv\Skole\VG3\NORSK\Norsk ting\Kap. 1 Dikterne realismen og naturalismen.pptx
+C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\11. ???.flac
 C:\Users\Cezary\Google Drive\Arkiv\Skole\Quake 2\baseq2\players\male\razor_i.pcx
 C:\Users\Cezary\Google Drive\Programming\Java\.recommenders\snipmatch\repositories\http___git_eclipse_org_gitroot_recommenders_org_eclipse_recommenders_snipmatch_snippets_git\snippets\059e38a8-3626-4482-bbbd-b13283fabd86.json
 C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\af\f9c6055a2f76b7803b96812fb43d6a65c9f1d9
@@ -10536,7 +10538,6 @@ C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\parser\FuncD
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\29\20b935199e3c001711d9d99986c44dab
 C:\Users\Cezary\Google Drive\Programming\Java\Turnus planner\.git\objects\54\d00be995cf707ff9513d12cb95016ed74dab8e
 C:\Users\Cezary\Google Drive\Arkiv\Skole\VG2\Engelsk\energ ting.pptx
-C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\10. ???.flac
 C:\Users\Cezary\Google Drive\Programming\C\.metadata\.plugins\org.eclipse.cdt.ui\C-testing.build.log
 C:\Users\Cezary\Google Drive\Arkiv\Skole\VG1\Naturfag\boller.docx
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\.git\objects\97\626ba45445dc9f3afa66e6a149914dc39e3df6
@@ -10545,6 +10546,7 @@ C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.cor
 C:\Users\Cezary\Google Drive\Programming\C\.metadata\.plugins\org.eclipse.cdt.managedbuilder.core\buildState\1060Oblig2\779413706
 C:\Users\Cezary\Google Drive\Arkiv\Skole\VG3\NORSK\Astrid_Rode-3STE-Cezary_Jaskula.docx
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\30\c0852a88190000171a8fc6f0aff92bc8
+C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\15. ???.flac
 C:\Users\Cezary\Google Drive\Arkiv\Skole\Quake 2\baseq2\save\current\mintro.sv2
 C:\Users\Cezary\Google Drive\Arkiv\Skole\Quake 2\baseq2\save\save10\server.ssv
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.jdt.core\486699731.index
@@ -10560,7 +10562,6 @@ C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\51\57d9b1d13
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\.git\objects\a2\5224ed5e388ad68a4fe64ef46b20c6c2d72987 (1)
 C:\Users\Cezary\Google Drive\Programming\Java\Turnus planner\.git\objects\84\5b58fb5fa322cb18d0161a9ca144cc4056c3a0
 C:\Users\Cezary\Google Drive\Arkiv\Skole\Quake 2\DOCS\quake2_manual\images\multiplayer_menu1.gif
-C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\26. ???????(movie edit.).flac
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\ea\d0bf8609c83800171a7ee083befdb8c0
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\32\302f6072353700171e419eda3d0fc41d
 C:\Users\Cezary\Google Drive\Programming\Java\Turnus planner\src\test2\test.txt
@@ -10590,6 +10591,7 @@ C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\parser\VarDe
 C:\Users\Cezary\Google Drive\Programming\C\.metadata\.plugins\org.eclipse.search\dialog_settings.xml
 C:\Users\Cezary\Google Drive\Programming\Java\Turnus planner\.git\objects\22\2b726e3aee0685c8c025811fcadf48fb7e74e9
 C:\Users\Cezary\Google Drive\Arkiv\Skole\Quake 2\baseq2\players\female\jungle.pcx
+C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\07. ??????.flac
 C:\Users\Cezary\Google Drive\Arkiv\Skole\VG1\Naturfag\radioaktivitet.docx
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\.git\objects\8b\3a3bd22673ad28817d69abe7f90466689ced84
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\70\e07342da190000171a8fc6f0aff92bc8
@@ -10648,7 +10650,6 @@ C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\.git\objects
 C:\Users\Cezary\Google Drive\Programming\Java\MorseL\.git\objects\ca\56e2fb87536d807deac0fa053f19a6f2a75d63
 C:\Users\Cezary\Google Drive\Programming\C\.metadata\.plugins\org.eclipse.core.resources\.history\13\c0f2fb6d6897001614aaae53204cf8c2
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\84\90a57e73210000171a8fc6f0aff92bc8
-C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\08. ????(movie ver.).flac
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.ui.intro\introstate
 C:\Users\Cezary\Google Drive\Programming\Java\.recommenders\snipmatch\repositories\http___git_eclipse_org_gitroot_recommenders_org_eclipse_recommenders_snipmatch_snippets_git\index\_3.fdx
 C:\Users\Cezary\Google Drive\Programming\Java\Sudoku-loser\angora - 06.07.2016.txt
@@ -10782,6 +10783,7 @@ C:\Users\Cezary\Google Drive\Programming\Java\Turnus planner\bin\test1\37.txt
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\parser\Type.java
 C:\Users\Cezary\Google Drive\Arkiv\1aNOT WORK\Ny mappe\ting\ghgfhfghfgh\Anime+tiddies+physics+source+basquash_c745d1_5799275.mp4
 C:\Users\Cezary\Google Drive\Programming\Java\Server_Client_test\.git\COMMIT_EDITMSG
+C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\88\49f2c5b7c48ec22294ef003b68da34f4709279
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\.git\objects\81\15de776f7f99e12c2bb57461398952dae4ee3a
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.root\.indexes\properties.version
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\parser\ParamDeclList.class
@@ -10959,7 +10961,6 @@ C:\Users\Cezary\Google Drive\Arkiv\1aNOT WORK\Ny mappe\ting\SWF\PerfectMaid.swf
 C:\Users\Cezary\Google Drive\Arkiv\3110\Readme.txt
 C:\Users\Cezary\Google Drive\Programming\Java\Robol\.git\objects\8b\35d93736753f3c7886f5c81a199a5680b30283
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\60\20613541150000171a8fc6f0aff92bc8
-C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\14. ????.flac
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\.git\objects\e4\ca1a2c37b2fdd4c58d1a28395dcad50c92df98
 C:\Users\Cezary\Google Drive\Arkiv\Skole\Quake 2\DOCS\quake2_manual\customer_support.html
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\f8\10df1229b83800171a7ee083befdb8c0
@@ -10967,6 +10968,7 @@ C:\Users\Cezary\Google Drive\Arkiv\Skole\Quake 2\DOCS\quake2_manual\enemy_techni
 C:\Users\Cezary\Google Drive\Programming\Java\Robol\bin\Main.class
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.projects\League of boxes\.markers.snap
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\76\c0c8e4ecb5e8001615e7bce91b49ff25
+C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\21. ??????.flac
 C:\Users\Cezary\Google Drive\Grund_1.docx.gdoc
 C:\Users\Cezary\Google Drive\Programming\C\1060Oblig1.1\Debug\makefile
 C:\Users\Cezary\Google Drive\Arkiv\1aNOT WORK\Ny mappe\ting\ghgfhfghfgh\SWF\FunInTheSun_7DaysTOdieISaREallYfunGameITSonSteamIFyouWANTtoTRyIT.swf
@@ -11053,7 +11055,6 @@ C:\Users\Cezary\Google Drive\Arkiv\Skole\VG2\Norsk\norsk ting\Oppsett diktanalys
 C:\Users\Cezary\Google Drive\Programming\C\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.php.ui.prefs
 C:\Users\Cezary\Google Drive\Programming\Java\testing grounds\bin\testing.class
 C:\Users\Cezary\Google Drive\Arkiv\1aNOT WORK\Ny mappe\ting\SWF\KarmasABabe_itsfinallyhere66463757Animation.swf
-C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\18. ????????.flac
 C:\Users\Cezary\Google Drive\Programming\Java\Turnus planner\src\test1\78.txt
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\6e\a0648aff28050017182fb06d2e18656f
 C:\Users\Cezary\Google Drive\Programming\Java\card_game\src\rules\assignPlayerCount.java
@@ -11203,7 +11204,6 @@ C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.cor
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\game.jar
 C:\Users\Cezary\Google Drive\Programming\Java\.recommenders\snipmatch\repositories\http___git_eclipse_org_gitroot_recommenders_org_eclipse_recommenders_snipmatch_snippets_git\snippets\3eee0d79-7bd0-3373-b6a8-816ddca83120.json
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\Champions\BladeMaster\BladeMaster3.java
-C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\19. ????.flac
 C:\Users\Cezary\Google Drive\Arkiv\Dark Souls III - Weapon AR & Damage Calculator (1.07b), OBSOLETE (Gjenopprettet).gsheet
 C:\Users\Cezary\Google Drive\Arkiv\FTL Profile Editor v19-Win\readme_for_windows.txt
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\b2\f0eaf5d1140000171a8fc6f0aff92bc8
@@ -11334,6 +11334,7 @@ C:\Users\Cezary\Google Drive\Arkiv\Skole\Quake 2\DOCS\quake2_manual\enemy_light_
 C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\empdb.txt
 C:\Users\Cezary\Google Drive\Programming\Java\.recommenders\snipmatch\repositories\http___git_eclipse_org_gitroot_recommenders_org_eclipse_recommenders_snipmatch_snippets_git\snippets\09d51855-38f3-3e7f-a7e1-89cbd8a17c90.json
 C:\Users\Cezary\Google Drive\Arkiv\Skole\VG3\FYSIKK\test 3_files\Common.js
+C:\Users\Cezary\Google Drive\Arkiv\1aNOT WORK\Ny mappe\ting\ghgfhfghfgh\Ahri-League-of-Legends-???????-Sona-2062305.jpeg
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\ec\b0b0918abf3900171a7ee083befdb8c0
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\9a\60fc10bade3800171a7ee083befdb8c0
 C:\Users\Cezary\Google Drive\Programming\C\.metadata\.plugins\org.eclipse.core.resources\.projects\1060Oblig2.1\.markers
@@ -11347,6 +11348,7 @@ C:\Users\Cezary\Google Drive\Programming\Java\Robol\src\var_decl.java
 C:\Users\Cezary\Google Drive\Arkiv\Skole\Quake 2\DOCS\quake2_manual\images\grenade_launcher.gif
 C:\Users\Cezary\Google Drive\Arkiv\Skole\Quake 2\baseq2\save\save7\bunk1.sav
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\.git\objects\4e\4accdabef625df5f89e9281a6ffb5ac7730199
+C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\25. ???2.flac
 C:\Users\Cezary\Google Drive\Arkiv\Skole\Quake 2\baseq2\save\save2\server.ssv
 C:\Users\Cezary\Google Drive\Programming\Java\card_game\.git\objects\a5\73324bde5a4463989773402efdc8d24fc8301c
 C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\10\39c4da25df0adedd06f06bac6a2ea8438ab1cc
@@ -11419,6 +11421,7 @@ C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\.git\objects
 C:\Users\Cezary\Google Drive\Programming\Java\TXT_editor\.git\objects\c5\dd05545b3543d387a22a5721d90f5daccd5852
 C:\Users\Cezary\Google Drive\Arkiv\Skole\Quake 2\baseq2\save\current\mine1.sav
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\1c\b078142ce603001710cbdfd103b872ea
+C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\e7\41b62b61f296668abd747cff029a70028bb728
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.projects\League of boxes\.markers
 C:\Users\Cezary\Google Drive\Programming\Java\TXT_editor\.git\logs\HEAD
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\c8\10fbaf16e703001710cbdfd103b872ea
@@ -11445,6 +11448,7 @@ C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\.git\objects\c5\79
 C:\Users\Cezary\Google Drive\Arkiv\FTL Profile Editor v19-Win\license.txt
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.jdt.core\savedIndexNames.txt
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\.git\objects\4f\01a2e1d36c63115f1981ec46ff40cb1ecc0157
+C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\46\e6d4a5d548850d359b96c805b4c5b0059a0dae
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\bin\Items\OversizedRod.class
 C:\Users\Cezary\Google Drive\Arkiv\Skole\Quake 2\baseq2\save\save5\game.ssv
 C:\Users\Cezary\Google Drive\Programming\Java\TXT_editor\src\Main.java
@@ -11504,6 +11508,7 @@ C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\parser\Param
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\f1\f0e5c7c72f04001710cbdfd103b872ea
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.jdt.core\1004716384.index
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\.git\objects\84\96c398e630f4637b1510d3101576737b88d0d2
+C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\16. ????.flac
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\f3\7096cddeec03001710cbdfd103b872ea
 C:\Users\Cezary\Google Drive\Arkiv\1aNOT WORK\Ny mappe\ting\ghgfhfghfgh\SWF\OneSexyError_HERP4398rkjfd432980fslkjD3RP.swf
 C:\Users\Cezary\Google Drive\Arkiv\Skole\Winamp PRO Full 5.65 Build 3438 + Serials [ThumperDC]\winamp565_pro.exe
@@ -11589,7 +11594,6 @@ C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\.git\objects
 C:\Users\Cezary\Google Drive\Programming\Java\Turnus planner\.git\objects\85\51102ac7634e10108627b86f635df53322e745
 C:\Users\Cezary\Google Drive\Arkiv\Skole\VG2\Spansk\ranodm notat 2.docx
 C:\Users\Cezary\Google Drive\Programming\Java\MorseL\.git\objects\a7\c88f87ef8f446d6dd033ac4dec6ad3a3301369
-C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\04. ????????.flac
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\3d\30081c17ceec00161e4e8a01ae76cb67
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\86\10a1a287723c001711d9d99986c44dab
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\.git\objects\ce\044d8c7a60b4270051ab7821944cdef2f68c5e
@@ -12014,6 +12018,7 @@ C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\.git\objects
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\.git\objects\4e\e4b9e73d19e8c195ca1a7640f8a1c961c06323
 C:\Users\Cezary\Google Drive\Programming\Java\Turnus planner\.git\objects\7a\7ca66144840eab498a1b7dc4b6e41d472db3fe
 C:\Users\Cezary\Google Drive\Arkiv\Skole\VG1\Geografi\Glasiologi.docx
+C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\18. ????????.flac
 C:\Users\Cezary\Google Drive\Programming\Java\Turnus planner\bin\workerbase\Andreas.txt
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\.git\objects\7c\8f7e82e800b23e1e86a0c27535393819e3fa02
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.jdt.core\1773349168.index
@@ -12023,7 +12028,6 @@ C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\d4\38a378c06
 C:\Users\Cezary\Google Drive\Programming\C\.metadata\.plugins\org.eclipse.cdt.ui\1060Oblig2.11.build.log
 C:\Users\Cezary\Google Drive\Programming\C\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.jst.jsp.ui.prefs
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\.git\objects\5f\6b32050856bc85922050372e4f9f333bdf6cb9
-C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\09. ???.flac
 C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\e6\c46a71c4dc739b8f247fe4b3391e1d56cf6654
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.jdt.ui\QualifiedTypeNameHistory.xml
 C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\14\ff316ee2e3dc2cea11d33696ecf1010da2312b
@@ -12419,7 +12423,6 @@ C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\Champions\Xerath\X
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.ltk.core.refactoring\.refactorings\.workspace\2017\2\7\refactorings.history
 C:\Users\Cezary\Google Drive\Programming\C\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.rse.core.prefs
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\c5\103d27bc3704001710cbdfd103b872ea
-C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\17. ??????.flac
 C:\Users\Cezary\Google Drive\Arkiv\Skole\Quake 2\baseq2\save\save9\bunk1.sv2
 C:\Users\Cezary\Google Drive\Arkiv\Skole\VG3\NORSK\Norsk ting\Bjørnson og Ibsen.pptx
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\5f\b0f8815adb3800171a7ee083befdb8c0
@@ -12451,11 +12454,13 @@ C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\parser\ProcC
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\83\30c680ae733c001711d9d99986c44dab
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\.git\objects\a3\02f08170241811d44b5dfa6fcbd22b7884c07e
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\.git\objects\ed\52a35f968ca6bc19209282109f98f45aea805e
+C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\19. ????.flac
 C:\Users\Cezary\Google Drive\Programming\C\.metadata\.plugins\org.eclipse.core.resources\.history\59\b013941d6a97001614aaae53204cf8c2
 C:\Users\Cezary\Google Drive\Programming\C\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.mylyn.monitor.ui.prefs
 C:\Users\Cezary\Google Drive\EDpassangerSystems.txt
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\.git\objects\a5\2e8713e9c855045c69d606f67ad106b60497a6
 C:\Users\Cezary\Google Drive\OST\NieR Gestalt & Replicant\Disc 1\(03) The Incomplete Stone - Keiichi Okabe.flac
+C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\08. ????(movie ver.).flac
 C:\Users\Cezary\Google Drive\Programming\Java\Robol\src\Expression.java
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\63\504f7372963c001711d9d99986c44dab
 C:\Users\Cezary\Google Drive\Programming\Java\Turnus planner\.settings\org.eclipse.jdt.core.prefs
@@ -12512,7 +12517,6 @@ C:\Users\Cezary\Google Drive\Programming\Java\.recommenders\snipmatch\repositori
 C:\Users\Cezary\Google Drive\Arkiv\1aNOT WORK\Ny mappe\ting\ghgfhfghfgh\SWF\BAB\Becoming1_43iujhfd980543lkjfdslk43290trjhg.swf
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\36\306284b6120000171a8fc6f0aff92bc8
 C:\Users\Cezary\Google Drive\Programming\Java\card_game\.git\objects\05\b564da20357eeb8922737a6f5e0a72cc21f38b
-C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\20. ????.flac
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\.git\objects\5c\4db58e8c4050260bcd36862beae4e11d754b29
 C:\Users\Cezary\Google Drive\Arkiv\1aNOT WORK\Ny mappe\ting\ghgfhfghfgh\SWF\awk\Awakening_Z3r05u17S4mu65foilkjvfsdlkfj777.swf
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\a3\a0eedc21c4e8001615e7bce91b49ff25
@@ -12528,6 +12532,7 @@ C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\.git\objects
 C:\Users\Cezary\Google Drive\Arkiv\1aNOT WORK\Ny mappe\ting\SWF\Thumbs.db
 C:\Users\Cezary\Google Drive\Programming\Java\Turnus planner\bin\test1\60.txt
 C:\Users\Cezary\Google Drive\Arkiv\Skole\VG1\Smafunsfag\sam prøve kappitel 3-4.docx
+C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\6e\55ae4c436f9c4d31eeb6b4142e23269636accc
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.ltk.core.refactoring\.refactorings\.workspace\2017\2\6\refactorings.history
 C:\Users\Cezary\Google Drive\Arkiv\Skole\VG1\Norsk\selvstudium 8.mai.docx
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\.git\objects\da\187a33d10cf6b2bea57ff7002b8c98b9ad6c33
@@ -12874,7 +12879,6 @@ C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\.git\objects\dc\d4
 C:\Users\Cezary\Google Drive\Arkiv\Skole\VG3\FYSIKK\Induksjon 22.docx
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\f\f0cee329bce8001615e7bce91b49ff25
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\.git\objects\d8\47ea4ef8c68c26415616051a61bd0615be47c5
-C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\13. ????.flac
 C:\Users\Cezary\Google Drive\Programming\Java\.recommenders\snipmatch\repositories\http___git_eclipse_org_gitroot_recommenders_org_eclipse_recommenders_snipmatch_snippets_git\snippets\319cb9e7-b993-3f99-8055-6ce983b304c1.json
 C:\Users\Cezary\Google Drive\Programming\Java\Sudoku-loser\.git\objects\ef\db88361e4de0d6757a433c1943fdb743a79677
 C:\Users\Cezary\Google Drive\Programming\Java\Chat\.git\HEAD
@@ -12962,6 +12966,7 @@ C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\parser\While
 C:\Users\Cezary\Google Drive\Programming\Java\EMPShell\.git\objects\27\f55812905718cc0f6827760fdd3cf529cf4fd5
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\.git\objects\23\e0864eedd71f8a111e4942103e8c3c38146321
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\src\.git\objects\39\f355c672ec0660ce86cbac0dd69ec20c126cb4
+C:\Users\Cezary\Google Drive\Arkiv\Absolute solid gold\your name\[Maid-chan] RADWIMPS - Kimi no Na wa. (Original Soundtrack) (FLAC)\02. ?????.flac
 C:\Users\Cezary\Google Drive\Programming\Java\testing grounds\.classpath
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\.git\objects\5a\85e9761f2cec38b5e831b545032c259de03f63
 C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.core.resources\.history\38\100b75c5ce3800171a7ee083befdb8c0
@@ -13044,4 +13049,4 @@ C:\Users\Cezary\Google Drive\Programming\Java\.metadata\.plugins\org.eclipse.cor
 C:\Users\Cezary\Google Drive\Programming\Java\League of boxes\.git\objects\a9\aaee477b77a438a8c8e192311812f01a0b79e6
 C:\Users\Cezary\Google Drive\Programming\Java\Pascal kompilator\bin\.git\objects\bf\5a30e25e40b7d655673deb9b5c707410d2d29c
 C:\Users\Cezary\Google Drive\Programming\C\.metadata\.plugins\org.eclipse.core.runtime\.settings\net.sourceforge.texlipse.prefs
-13042
+13047

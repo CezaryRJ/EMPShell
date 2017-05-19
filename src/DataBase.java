@@ -41,10 +41,7 @@ public class DataBase implements runVoid {
 				}
 
 			}
-			for (int i = 0; i < classes; i++) {
 
-				System.out.println("Class " + labels.get(i) + " contains " + dataBase.get(i).size() + " files");
-			}
 			System.out.println("Files in databse : " + scanner.nextLine());
 			scanner.close();
 
@@ -104,7 +101,7 @@ public class DataBase implements runVoid {
 			tmp = new File(listOfFiles[i].getPath());
 
 			if (tmp.isDirectory()) {
-				
+
 				cache.add(new ArrayList<ArrayList<String>>());
 				for (int y = 0; y < classes; y++) {
 					cache.get(cache.size() - 1).add(new ArrayList<String>());
@@ -207,6 +204,11 @@ public class DataBase implements runVoid {
 		out.add(inn.substring(counter, inn.length()));
 
 		return out;
+	}
+
+	public HashMap<String, Boolean> getGroup(int i) {
+
+		return dataBase.get(i);
 	}
 
 	@Override
