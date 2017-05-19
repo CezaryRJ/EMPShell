@@ -139,7 +139,7 @@ public class Manager {
 
 		@Override
 		public void help() {
-			// TODO Auto-generated method stub
+			 
 
 		}
 	}
@@ -160,7 +160,7 @@ public class Manager {
 
 		@Override
 		public void help() {
-			// TODO Auto-generated method stub
+			 
 
 		}
 
@@ -179,7 +179,7 @@ public class Manager {
 			try {
 				Desktop.getDesktop().open(new File(path));
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
+			
 				e.printStackTrace();
 			}
 
@@ -187,7 +187,7 @@ public class Manager {
 
 		@Override
 		public void help() {
-			// TODO Auto-generated method stub
+			 
 
 		}
 
@@ -220,7 +220,7 @@ public class Manager {
 
 		@Override
 		public void help() {
-			// TODO Auto-generated method stub
+			 
 
 		}
 
@@ -249,7 +249,7 @@ public class Manager {
 
 		@Override
 		public void help() {
-			// TODO Auto-generated method stub
+			 
 
 		}
 
@@ -278,7 +278,7 @@ public class Manager {
 		}
 
 		public void help() {
-			// TODO Auto-generated method stub
+			 
 
 		}
 
@@ -297,7 +297,7 @@ public class Manager {
 		public void run(ArrayList<String> inn) throws Exception {
 
 			for (int i = 0; i < inn.size(); i++) {
-				// System.out.println("test");
+		
 				try {
 					if (new File(path + "\\" + inn.get(i)).exists()) {
 						Desktop.getDesktop().open(new File(path + "\\" + inn.get(i)));
@@ -305,7 +305,7 @@ public class Manager {
 						System.out.println("Failed to open file \\" + inn.get(i) + " file does not exist");
 					}
 				} catch (IOException e) {
-					// TODO Auto-generated catch block
+					
 					e.printStackTrace();
 				}
 			}
@@ -313,7 +313,7 @@ public class Manager {
 
 		@Override
 		public void help() {
-			// TODO Auto-generated method stub
+			 
 
 		}
 
