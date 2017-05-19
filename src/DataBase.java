@@ -4,14 +4,23 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
+import java.util.Map.Entry;
 
-public class DataBase {
-	HashMap<String, Boolean> audio = new HashMap<String, Boolean>();
-	HashMap<String, Boolean> image = new HashMap<String, Boolean>();
-	HashMap<String, Boolean> other = new HashMap<String, Boolean>();
+public class DataBase implements runVoid {
+	/*
+	 * 0 - music 1 - images 2 - other
+	 */
+	HashMap<Integer, HashMap<String, Boolean>> dataBase = new HashMap<>();
+	HashMap<Integer, String> labels = new HashMap<>();
 
-	public void readData(String file) {
-		/*
+	DataBase() {
+		labels.put(0, "Music");
+		labels.put(1, "Images");
+		labels.put(2, "Other");
+	}
+
+	public void readData(String file) throws Exception {
+
 		Scanner inn = new Scanner(new File(file));
 
 		try {
@@ -20,7 +29,7 @@ public class DataBase {
 			inn = new Scanner(new File("empdb.txt"));
 			while (inn.hasNextLine()) {
 
-				database.put(inn.nextLine(), true);
+				// database.put(inn.nextLine(), true);
 				counter++;
 
 			}
@@ -31,9 +40,8 @@ public class DataBase {
 
 			index(System.getProperty("user.dir"));
 		}
-		*/
-
 		/*
+		 * 
 		 * HashMap<String, String> userSettings = new HashMap<String, String>();
 		 * 
 		 * try { //load user setting if present inn = new Scanner(new
@@ -61,25 +69,15 @@ public class DataBase {
 
 	public void index(String path) throws Exception {
 
+		int classes = 3;
 		Timer timer = new Timer();
 		timer.start();
-		// must cut of first directory
-
-		ArrayList<String> pathTokens = tokenize(path, "\\");
-
-		String out = pathTokens.get(0);
-		for (int i = 1; i < pathTokens.size(); i++) {
-			out = out + "\\" + pathTokens.get(i);
-		}
-
-		System.out.println(out + "\\empdb.txt");
-		PrintWriter writer = new PrintWriter(out + "\\empdb.txt", "UTF-8");
 
 		File[] listOfFiles = new File(path).listFiles();
 
 		ArrayList<ArrayList<ArrayList<String>>> cache = new ArrayList<>();
 		cache.add(new ArrayList<ArrayList<String>>());
-		for (int y = 0; y < 3; y++) {
+		for (int y = 0; y < classes; y++) {
 			cache.get(cache.size() - 1).add(new ArrayList<String>());
 		}
 		Crawler thisFolder = new Crawler(path, cache.get(0));
@@ -97,7 +95,7 @@ public class DataBase {
 
 					if (crawler[x] == null || !crawler[x].isAlive()) {
 						cache.add(new ArrayList<ArrayList<String>>());
-						for (int y = 0; y < 3; y++) {
+						for (int y = 0; y < classes; y++) {
 							cache.get(cache.size() - 1).add(new ArrayList<String>());
 						}
 						crawler[x] = new Thread(new Crawler(tmp.getAbsolutePath(), cache.get(cache.size() - 1)));
@@ -107,8 +105,7 @@ public class DataBase {
 					}
 				}
 
-			} else {
-				// denne sjekke filene i root mappen
+			} else { // denne sjekke filene i root mappen
 				thisFolder.classifier.classify(tmp.getAbsolutePath());
 			}
 
@@ -122,50 +119,52 @@ public class DataBase {
 
 		}
 
-		int counter = 0;
-		int fileCounter = 0;
-		// legg sammen resultater
-
-		for (int i = 0; i < 3; i++) {
-
-			for (int x = 0; x < cache.size(); x++) {
-				counter += cache.get(x).get(i).size();
-
-			}
-			System.out.println(counter);
-			writer.println(counter);
-
-			for (int x = 0; x < cache.size(); x++) {
-				for (int y = 0; y < cache.get(x).get(i).size(); y++) {
-					writer.println(cache.get(x).get(i).get(y));
-
-				}
-
+		for (int i = 0; i < classes; i++) {
+			// create more classes if needed
+			if (dataBase.get(i) == null) {
+				dataBase.put(i, new HashMap<String, Boolean>());
 			}
 
-			fileCounter += counter;
-			counter = 0;
 		}
 
-		/*
-		 * for (int b = 0; b < cache.size(); b++) { for (int c = 0; c <
-		 * cache.get(b).size(); c++) { for (int d = 0; d <
-		 * cache.get(b).get(c).size(); d++) {
-		 * writer.println(cache.get(b).get(c).get(d)); counter++; } }
-		 * 
-		 * counter = 0;
-		 * 
-		 * }
-		 */
-		writer.print(fileCounter);
-		writer.close();
+		// classes will be names 0,1,2,3 etc. 0 - music, 1- images and so on
+		for (int b = 0; b < cache.size(); b++) {
+			for (int c = 0; c < cache.get(b).size(); c++) {
+				for (int d = 0; d < cache.get(b).get(c).size(); d++) {
+
+					dataBase.get(c).put(cache.get(b).get(c).get(d), true);
+
+				}
+			}
+
+		}
+
+		int fileCounter = 0;
+		for (int i = 0; i < classes; i++) {
+
+			System.out.println("Class " + labels.get(i) + " contains " + dataBase.get(i).size() + " files");
+			fileCounter += dataBase.get(i).size();
+		}
 		System.out.print(fileCounter + " files gathered in ");
 		timer.stop();
 		System.out.println("\n" + threads + " threads have been used for this task");
+		writeToFile();
 
 	}
-	public void writeToFile(){
-		
+
+	public void writeToFile() throws FileNotFoundException {
+
+		PrintWriter writer = new PrintWriter(new File("empdb.txt"));
+		int counter = 0;
+		for (int i = 0; i < dataBase.size(); i++) {
+			writer.println(dataBase.get(i).size());
+			counter += dataBase.get(i).size();
+			for (String entry : dataBase.get(i).keySet()) {
+				writer.println(entry);
+			}
+		}
+		writer.println(counter);
+		writer.close();
 	}
 
 	public ArrayList<String> tokenize(String inn, String limiter) {
@@ -184,6 +183,18 @@ public class DataBase {
 		out.add(inn.substring(counter, inn.length()));
 
 		return out;
+	}
+
+	@Override
+	public void run(ArrayList<String> inn) throws Exception {
+		index(Manager.path);
+
+	}
+
+	@Override
+	public void help() {
+		// TODO Auto-generated method stub
+
 	}
 
 }

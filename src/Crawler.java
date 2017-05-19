@@ -1,12 +1,6 @@
 import java.io.File;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
-
-import javax.imageio.ImageIO;
-import javax.sound.sampled.AudioFileFormat;
-import javax.sound.sampled.AudioSystem;
-import javax.sound.sampled.UnsupportedAudioFileException;
 
 /**
  * Indexes a given directory and its subdirectories used my the index method in
