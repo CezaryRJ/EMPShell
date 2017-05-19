@@ -1,6 +1,13 @@
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
+import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
@@ -32,17 +39,21 @@ public class DataBase implements runVoid {
 			}
 
 			// read file database
-			Scanner scanner = new Scanner(new File(file));
-			classes = Integer.parseInt(scanner.nextLine());
+			// Scanner scanner = new Scanner(new File(file),"UTF-8");
+
+			BufferedReader scanner = new BufferedReader(
+					new InputStreamReader(new FileInputStream(new File(file)), "UTF8"));
+
+			classes = Integer.parseInt(scanner.readLine());
 			for (int x = 0; x < classes; x++) {
-				int classMembers = Integer.parseInt(scanner.nextLine());
+				int classMembers = Integer.parseInt(scanner.readLine());
 				for (int i = 0; i < classMembers; i++) {
-					dataBase.get(x).put(scanner.nextLine(), true);
+					dataBase.get(x).put(scanner.readLine(), true);
 				}
 
 			}
 
-			System.out.println("Files in databse : " + scanner.nextLine());
+			System.out.println("Files in databse : " + scanner.read());
 			scanner.close();
 
 			System.out.println("Database file has been sucesfully read");
@@ -172,19 +183,20 @@ public class DataBase implements runVoid {
 
 	}
 
-	public void writeToFile() throws FileNotFoundException {
+	public void writeToFile() throws IOException {
 		System.out.println("Writing database to file");
-		PrintWriter writer = new PrintWriter(new File("empdb.txt"));
+		OutputStreamWriter writer = new OutputStreamWriter(new FileOutputStream("empdb.txt"),
+				Charset.forName("UTF-8").newEncoder());
 		int counter = 0;
-		writer.println(classes);
+		writer.write(classes + "\n");
 		for (int i = 0; i < dataBase.size(); i++) {
-			writer.println(dataBase.get(i).size());
+			writer.write(dataBase.get(i).size() + "\n");
 			counter += dataBase.get(i).size();
 			for (String entry : dataBase.get(i).keySet()) {
-				writer.println(entry);
+				writer.write(entry + "\n");
 			}
 		}
-		writer.println(counter);
+		writer.write(counter);
 		writer.close();
 	}
 
