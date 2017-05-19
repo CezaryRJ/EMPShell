@@ -4,7 +4,6 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
-import java.util.Map.Entry;
 
 public class DataBase implements runVoid {
 	/*
@@ -12,6 +11,7 @@ public class DataBase implements runVoid {
 	 */
 	HashMap<Integer, HashMap<String, Boolean>> dataBase = new HashMap<>();
 	HashMap<Integer, String> labels = new HashMap<>();
+	static int classes = 3;
 
 	DataBase() {
 		labels.put(0, "Music");
@@ -21,24 +21,39 @@ public class DataBase implements runVoid {
 
 	public void readData(String file) throws Exception {
 
-		Scanner inn = new Scanner(new File(file));
-
 		try {
-			// read file database
-			int counter = 0;
-			inn = new Scanner(new File("empdb.txt"));
-			while (inn.hasNextLine()) {
 
-				// database.put(inn.nextLine(), true);
-				counter++;
+			for (int i = 0; i < classes; i++) {
+				// create more classes if needed
+				if (dataBase.get(i) == null) {
+					dataBase.put(i, new HashMap<String, Boolean>());
+				}
 
 			}
-			System.out.println(counter + " files in databse");
+
+			// read file database
+			Scanner scanner = new Scanner(new File(file));
+			classes = Integer.parseInt(scanner.nextLine());
+			for (int x = 0; x < classes; x++) {
+				int classMembers = Integer.parseInt(scanner.nextLine());
+				for (int i = 0; i < classMembers; i++) {
+					dataBase.get(x).put(scanner.nextLine(), true);
+				}
+
+			}
+			for (int i = 0; i < classes; i++) {
+
+				System.out.println("Class " + labels.get(i) + " contains " + dataBase.get(i).size() + " files");
+			}
+			System.out.println("Files in databse : " + scanner.nextLine());
+			scanner.close();
+
+			System.out.println("Database file has been sucesfully read");
 
 		} catch (FileNotFoundException e) {
 			// scan all subfolders on first boot, or if db file is not found
-
-			index(System.getProperty("user.dir"));
+			System.out.println("No databse file found, performing first time scan");
+			index(Manager.path);
 		}
 		/*
 		 * 
@@ -69,7 +84,6 @@ public class DataBase implements runVoid {
 
 	public void index(String path) throws Exception {
 
-		int classes = 3;
 		Timer timer = new Timer();
 		timer.start();
 
@@ -82,8 +96,7 @@ public class DataBase implements runVoid {
 		}
 		Crawler thisFolder = new Crawler(path, cache.get(0));
 
-		Thread[] crawler = new Thread[Runtime.getRuntime().availableProcessors()];
-
+		ArrayList<Thread> crawler = new ArrayList<>();
 		File tmp;
 		int threads = 0;
 
@@ -91,32 +104,42 @@ public class DataBase implements runVoid {
 			tmp = new File(listOfFiles[i].getPath());
 
 			if (tmp.isDirectory()) {
-				for (int x = 0; x < crawler.length; x++) {
-
-					if (crawler[x] == null || !crawler[x].isAlive()) {
-						cache.add(new ArrayList<ArrayList<String>>());
-						for (int y = 0; y < classes; y++) {
-							cache.get(cache.size() - 1).add(new ArrayList<String>());
-						}
-						crawler[x] = new Thread(new Crawler(tmp.getAbsolutePath(), cache.get(cache.size() - 1)));
-						crawler[x].start();
-						threads++;
-						break;
-					}
+				System.out.println(tmp);
+				cache.add(new ArrayList<ArrayList<String>>());
+				for (int y = 0; y < classes; y++) {
+					cache.get(cache.size() - 1).add(new ArrayList<String>());
 				}
+				crawler.add(new Thread(new Crawler(tmp.getAbsolutePath(), cache.get(cache.size() - 1))));
+
+				threads++;
 
 			} else { // denne sjekke filene i root mappen
 				thisFolder.classifier.classify(tmp.getAbsolutePath());
 			}
 
 		}
-		for (int i = 0; i < crawler.length; i++) {
-			if (crawler[i] != null) {
+		int maxThreads = 0;
+		if (Runtime.getRuntime().availableProcessors() * 2 > crawler.size()) {
+			maxThreads = crawler.size();
+		} else {
+			maxThreads = Runtime.getRuntime().availableProcessors() * 2;
+		}
 
-				crawler[i].join();
+		int threadIndex = 0;
+		for (int i = 0; i < maxThreads; i++) {
+			// start first threads
+			crawler.get(threadIndex).start();
+			threadIndex++;
+		}
+
+		for (int i = 0; i < crawler.size(); i++) {
+			// start first threads and wait so start new
+			crawler.get(i).join();
+			try {
+				crawler.get(threadIndex).start();
+			} catch (Exception e) {
 
 			}
-
 		}
 
 		for (int i = 0; i < classes; i++) {
@@ -148,14 +171,14 @@ public class DataBase implements runVoid {
 		System.out.print(fileCounter + " files gathered in ");
 		timer.stop();
 		System.out.println("\n" + threads + " threads have been used for this task");
-		writeToFile();
 
 	}
 
 	public void writeToFile() throws FileNotFoundException {
-
+		System.out.println("Writing database to file");
 		PrintWriter writer = new PrintWriter(new File("empdb.txt"));
 		int counter = 0;
+		writer.println(classes);
 		for (int i = 0; i < dataBase.size(); i++) {
 			writer.println(dataBase.get(i).size());
 			counter += dataBase.get(i).size();
