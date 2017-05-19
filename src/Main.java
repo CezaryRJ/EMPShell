@@ -9,6 +9,8 @@ public class Main {
 
 		System.out.println("Welcome to EMPShell\nhttps://github.com/CezaryRJ");
 
+		
+		
 		Manager manager = new Manager(System.getProperty("user.dir"));
 
 		Recorder recorder = new Recorder();
