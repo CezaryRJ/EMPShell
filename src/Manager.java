@@ -23,8 +23,9 @@ public class Manager {
 	
 	DataBase database = new DataBase();
 
-	Manager(String path) {
+	Manager(String path) throws Exception {
 		Manager.path = path;
+		database.readData("empdb.txt");
 
 		runVoid.put("dir", new ls());
 		runVoid.put("credits", new credits());
@@ -327,7 +328,7 @@ public class Manager {
 
 		@Override
 		public void run(ArrayList<String> inn) throws Exception {
-			System.out.println("Writing database to file");
+			
 			database.writeToFile();
 			System.out.println("Exiting - Have a nice day");
 			System.exit(0);
