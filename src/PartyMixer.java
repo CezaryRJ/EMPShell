@@ -8,9 +8,11 @@ import java.util.Random;
 
 /**
  * Makes a playlist consisting of the requested amount of tracks from the
- *  
- *  WARNING, IT IS HIGLY RECCOMENDED TO USE VLC TO LAUNCH THE PLAYLIST, AS WIDNWO MEDIA PLAYERS DOSNT ALWAYS WORK
- *  if you find a solution to this problem, feel free to contact me on github
+ * 
+ * WARNING, IT IS HIGLY RECCOMENDED TO USE VLC TO LAUNCH THE PLAYLIST, AS WIDNWO
+ * MEDIA PLAYERS DOSNT ALWAYS WORK if you find a solution to this problem, feel
+ * free to contact me on github
+ * 
  * @author Cezary
  *
  */
@@ -30,8 +32,13 @@ public class PartyMixer implements runVoid {
 		// File playlist = new File("EMPplaylist.wpl");
 
 		ArrayList<String> tokens;
-
-		int filesWanted = Integer.parseInt(inn.get(0));
+		int filesWanted;
+		try {
+			 filesWanted = Integer.parseInt(inn.get(0));
+		} catch (Exception e) {
+			System.out.println("Input the number of wanted audio files");
+			return;
+		}
 
 		// PrintWriter writer = new PrintWriter(playlist);
 		OutputStreamWriter writer = new OutputStreamWriter(new FileOutputStream(Manager.openDir + "\\EMPplaylist.wpl"),
