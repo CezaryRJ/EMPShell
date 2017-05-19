@@ -11,42 +11,60 @@ public class Main {
 
 		Manager manager = new Manager(System.getProperty("user.dir"));
 
-		// Start loop
 		Recorder recorder = new Recorder();
-
-		recorder.add("a");
-		recorder.add("b");
-		recorder.add("c");
-		recorder.add("d");
-		recorder.add("e");
-
-		System.out.println(recorder.printUp());
-		System.out.println(recorder.printUp());
-		System.out.println(recorder.printUp());
-		System.out.println(recorder.printUp());
-		
-		System.out.println(recorder.printDown());
-		System.out.println(recorder.printDown());
-		
-	
+		// Start loop
 
 		ArrayList<String> tokens;
 		String tmp;
+		String raw;
 		@SuppressWarnings("resource")
 		Scanner inn = new Scanner(System.in);
 		while (true) {
 
-			tokens = manager.tokenize(inn.nextLine(), " ");
+			tmp = inn.nextLine();
+			raw = tmp;
+			tokens = manager.tokenize(tmp, " ");
 			tmp = tokens.get(0);
 
 			if (manager.runVoid.get(tmp) != null) {
+				// try regular command
 				tokens.remove(0);
-
 				manager.runVoid.get(tmp).run(tokens);
-			}
+				recorder.add(raw.trim());
+			} else if (tokens.size() == 1) {
 
-			else {
-				System.out.println("No such Command");
+				try {
+					// try to get command for history
+					tokens = manager.tokenize(recorder.getInput(Integer.parseInt(tokens.get(0))), " ");
+					tmp = tokens.get(0);
+
+					System.out.println("Executing command: " + recorder.getInput(Integer.parseInt(raw)));
+
+					if (manager.runVoid.get(tmp) != null) {
+						tokens.remove(0);
+						manager.runVoid.get(tmp).run(tokens);
+
+					}
+
+				} catch (NumberFormatException e) {
+					// get latest command
+					tokens = manager.tokenize(recorder.getLatest(), " ");
+					System.out.println("Executing command: " + recorder.getLatest());
+					tmp = tokens.get(0);
+					if (manager.runVoid.get(tmp) != null) {
+						tokens.remove(0);
+						manager.runVoid.get(tmp).run(tokens);
+
+					} else {
+
+						System.out.println("No such command");
+
+					}
+				} catch (NullPointerException e) {
+					System.out.println("No such command");
+
+				}
+
 			}
 
 		}
