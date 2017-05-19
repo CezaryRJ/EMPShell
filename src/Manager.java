@@ -19,12 +19,16 @@ public class Manager {
 
 	static String path;
 
+	
+	static String openDir;
+	
 	HashMap<String, runVoid> runVoid = new HashMap<>();
 	
 	DataBase database = new DataBase();
 
 	Manager(String path) throws Exception {
 		Manager.path = path;
+		openDir = path;
 		database.readData("empdb.txt");
 
 		runVoid.put("dir", new ls());
