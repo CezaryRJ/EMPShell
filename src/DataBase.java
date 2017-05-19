@@ -14,7 +14,7 @@ public class DataBase implements runVoid {
 	/*
 	 * 0 - music 1 - images 2 - other
 	 */
-	HashMap<Integer, HashMap<String, Boolean>> dataBase = new HashMap<>();
+	HashMap<Integer, HashMap<String, FileInfo>> dataBase = new HashMap<>();
 	HashMap<Integer, String> labels = new HashMap<>();
 	static int classes = 3;
 
@@ -31,7 +31,7 @@ public class DataBase implements runVoid {
 			for (int i = 0; i < classes; i++) {
 				// create more classes if needed
 				if (dataBase.get(i) == null) {
-					dataBase.put(i, new HashMap<String, Boolean>());
+					dataBase.put(i, new HashMap<String, FileInfo>());
 				}
 
 			}
@@ -46,7 +46,7 @@ public class DataBase implements runVoid {
 			for (int x = 0; x < classes; x++) {
 				int classMembers = Integer.parseInt(scanner.readLine());
 				for (int i = 0; i < classMembers; i++) {
-					dataBase.get(x).put(scanner.readLine(), true);
+					dataBase.get(x).put(scanner.readLine(), new FileInfo());
 				}
 
 			}
@@ -152,7 +152,7 @@ public class DataBase implements runVoid {
 		for (int i = 0; i < classes; i++) {
 			// create more classes if needed
 			if (dataBase.get(i) == null) {
-				dataBase.put(i, new HashMap<String, Boolean>());
+				dataBase.put(i, new HashMap<String, FileInfo>());
 			}
 
 		}
@@ -162,7 +162,7 @@ public class DataBase implements runVoid {
 			for (int c = 0; c < cache.get(b).size(); c++) {
 				for (int d = 0; d < cache.get(b).get(c).size(); d++) {
 
-					dataBase.get(c).put(cache.get(b).get(c).get(d), true);
+					dataBase.get(c).put(cache.get(b).get(c).get(d), new FileInfo());
 
 				}
 			}
@@ -216,7 +216,7 @@ public class DataBase implements runVoid {
 		return out;
 	}
 
-	public HashMap<String, Boolean> getGroup(int i) {
+	public HashMap<String, FileInfo> getGroup(int i) {
 
 		return dataBase.get(i);
 	}
