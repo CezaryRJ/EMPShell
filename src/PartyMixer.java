@@ -27,20 +27,15 @@ public class PartyMixer implements runVoid {
 
 	public void run(ArrayList<String> inn) throws Exception {
 
-		// inn 0 = number of tracs
-
-		// File playlist = new File("EMPplaylist.wpl");
-
 		ArrayList<String> tokens;
 		int filesWanted;
 		try {
-			 filesWanted = Integer.parseInt(inn.get(0));
+			filesWanted = Integer.parseInt(inn.get(0));
 		} catch (Exception e) {
 			System.out.println("Input the number of wanted audio files");
 			return;
 		}
 
-		// PrintWriter writer = new PrintWriter(playlist);
 		OutputStreamWriter writer = new OutputStreamWriter(new FileOutputStream(Manager.openDir + "\\EMPplaylist.wpl"),
 				Charset.forName("UTF-8").newEncoder());
 		Random random = new Random();
