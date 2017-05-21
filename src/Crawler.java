@@ -37,7 +37,7 @@ public class Crawler implements Runnable {
 			if (listOfFiles[i].isDirectory()) {
 				listFiles(listOfFiles[i].getAbsolutePath());
 			} else {
-				// System.out.println(listOfFiles[i].getAbsolutePath());
+				
 				classifier.classify(listOfFiles[i].getAbsolutePath());
 			}
 		}
