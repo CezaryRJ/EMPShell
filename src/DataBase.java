@@ -10,20 +10,41 @@ import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+import indexing.InvertedIndex;
+import indexing.Posting;
+import indexing.PostingList;
+
 public class DataBase implements runVoid {
 	/*
 	 * 0 - music 1 - images 2 - other
 	 */
 	HashMap<Integer, HashMap<String, FileInfo>> dataBase = new HashMap<>();
-	HashMap<Integer, String> labels = new HashMap<>();
+	InvertedIndex index = new InvertedIndex();
+
+	HashMap<Integer, String> revLabels = new HashMap<>();
+	HashMap<String, Integer> labels = new HashMap<>();
 	static int classes = 3;
 
 	DataBase() {
-		labels.put(0, "Music");
-		labels.put(1, "Images");
-		labels.put(2, "Other");
+
+		labels.put("Music", 0);
+		labels.put("Images", 1);
+		labels.put("Other", 2);
+
+		revLabels.put(labels.get("Music"), "Music");
+		revLabels.put(labels.get("Images"), "Images");
+		revLabels.put(labels.get("Other"), "Other");
+
 	}
 
+	public void findFile(String name){
+		PostingList tmp = 	index.getInvertedIndex().get(index.getLexicon().lookup(name));
+		for(int i = 0; i< tmp.getPostings().size();i++){
+			System.out.println(tmp.getPostings().get(i).getPath());
+			
+		}
+	}
+	
 	public void readData(String file) throws Exception {
 
 		try {
@@ -225,6 +246,10 @@ public class DataBase implements runVoid {
 	public void run(ArrayList<String> inn) throws Exception {
 		index(Manager.path);
 
+	}
+
+	public HashMap<String, FileInfo> getClass(String name) {
+		return dataBase.get(labels.get(name));
 	}
 
 	@Override
