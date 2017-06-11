@@ -12,17 +12,10 @@ import java.util.HashMap;
 public class Crawler implements Runnable {
 
 	String path;
-	ArrayList<String> cacheAudio;
-	ArrayList<String> cacheImage;
-	ArrayList<String> cacheOther;
+	ArrayList<FileInfo> Files;
 
-	classifier classifier = new classifier();
-
-	Crawler(String path, ArrayList<ArrayList<String>> cache) {
+	Crawler(String path, ArrayList<FileInfo> cache) {
 		this.path = path;
-		this.cacheAudio = cache.get(0);
-		this.cacheImage = cache.get(1);
-		this.cacheOther = cache.get(2);
 	}
 
 	@Override
@@ -37,67 +30,11 @@ public class Crawler implements Runnable {
 			if (listOfFiles[i].isDirectory()) {
 				listFiles(listOfFiles[i].getAbsolutePath());
 			} else {
-				
-				classifier.classify(listOfFiles[i].getAbsolutePath());
+
+				Files.add(new FileInfo(listOfFiles[i].getAbsolutePath()));
 			}
 		}
 
-	}
-
-	class classifier {
-		HashMap<String, AudioAdder> audio = new HashMap<>();
-		HashMap<String, ImageAdder> image = new HashMap<>();
-
-		class AudioAdder {
-			void addAudio(String path) {
-
-			}
-		}
-
-		class ImageAdder {
-			void addImage(String path) {
-
-			}
-
-		}
-
-		AudioAdder audioAdder = new AudioAdder();
-		ImageAdder imageAdder = new ImageAdder();
-
-		classifier() {
-			audio.put("mp3", audioAdder);
-			
-			image.put("jpg", imageAdder);
-			image.put("png", imageAdder);
-		}
-
-		String fileType = null;
-
-		void classify(String path) {
-
-			fileType = getExtention(path);
-
-			// check if filetype has allready been seen
-			if (audio.get(fileType) != null) {
-
-				cacheAudio.add(path);
-				return;
-			} else {
-
-				// check if filetype has allready been seen
-
-				if (image.get(fileType) != null) {
-
-					// System.out.println(fileType);
-					cacheImage.add(path);
-					return;
-				} else {
-
-					cacheOther.add(path);
-					return;
-				}
-			}
-		}
 	}
 
 	String getExtention(String inn) {
