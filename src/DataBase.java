@@ -20,7 +20,7 @@ public class DataBase implements runVoid {
 	Lexicon lexicon = new Lexicon();
 	ArrayList<PostingList> PostingLists = new ArrayList<>();
 	ArrayList<FileInfo> files = new ArrayList<>();
-
+	//database database woah.
 	public void findFile(String name) {
 		PostingList tmp = index.getInvertedIndex().get(index.getLexicon().lookup(name));
 		for (int i = 0; i < tmp.getPostings().size(); i++) {
