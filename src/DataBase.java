@@ -21,7 +21,7 @@ public class DataBase implements runVoid {
 	ArrayList<PostingList> PostingLists = new ArrayList<>();
 	ArrayList<FileInfo> files = new ArrayList<>();
 	//just living in the database database woah.
-	//stuff
+	//stuff and things
 	public void findFile(String name) {
 		PostingList tmp = index.getInvertedIndex().get(index.getLexicon().lookup(name));
 		for (int i = 0; i < tmp.getPostings().size(); i++) {
