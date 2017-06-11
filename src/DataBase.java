@@ -11,40 +11,24 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 import indexing.InvertedIndex;
+import indexing.Lexicon;
 import indexing.Posting;
 import indexing.PostingList;
 
 public class DataBase implements runVoid {
-	/*
-	 * 0 - music 1 - images 2 - other
-	 */
-	HashMap<Integer, HashMap<String, FileInfo>> dataBase = new HashMap<>();
-	InvertedIndex index = new InvertedIndex();
 
-	HashMap<Integer, String> revLabels = new HashMap<>();
-	HashMap<String, Integer> labels = new HashMap<>();
-	static int classes = 3;
+	Lexicon lexicon = new Lexicon();
+	ArrayList<PostingList> PostingLists = new ArrayList<>();
+	ArrayList<FileInfo> files = new ArrayList<>();
 
-	DataBase() {
-
-		labels.put("Music", 0);
-		labels.put("Images", 1);
-		labels.put("Other", 2);
-
-		revLabels.put(labels.get("Music"), "Music");
-		revLabels.put(labels.get("Images"), "Images");
-		revLabels.put(labels.get("Other"), "Other");
-
-	}
-
-	public void findFile(String name){
-		PostingList tmp = 	index.getInvertedIndex().get(index.getLexicon().lookup(name));
-		for(int i = 0; i< tmp.getPostings().size();i++){
+	public void findFile(String name) {
+		PostingList tmp = index.getInvertedIndex().get(index.getLexicon().lookup(name));
+		for (int i = 0; i < tmp.getPostings().size(); i++) {
 			System.out.println(tmp.getPostings().get(i).getPath());
-			
+
 		}
 	}
-	
+
 	public void readData(String file) throws Exception {
 
 		try {
@@ -82,31 +66,7 @@ public class DataBase implements runVoid {
 			System.out.println("No databse file found, performing first time scan");
 			index(Manager.path);
 		}
-		/*
-		 * 
-		 * HashMap<String, String> userSettings = new HashMap<String, String>();
-		 * 
-		 * try { //load user setting if present inn = new Scanner(new
-		 * File("userSettings.txt")); String tmp;
-		 * 
-		 * String tmp2 = ""; int counter = 0;
-		 * 
-		 * while (inn.hasNext()) { tmp = inn.nextLine();
-		 * 
-		 * while (!tmp.substring(counter, counter + 1).equals(" ")) { counter++;
-		 * } tmp2 = tmp.substring(counter + 1); tmp = tmp.substring(0, counter);
-		 * 
-		 * userSettings.put(tmp, tmp2);
-		 * 
-		 * }
-		 * 
-		 * System.out.println("User settings loaded"); } catch
-		 * (FileNotFoundException e) {
-		 * 
-		 * System.out.println("No user setting found");
-		 * 
-		 * }
-		 */
+
 	}
 
 	public void index(String path) throws Exception {
@@ -116,12 +76,9 @@ public class DataBase implements runVoid {
 
 		File[] listOfFiles = new File(path).listFiles();
 
-		ArrayList<ArrayList<ArrayList<String>>> cache = new ArrayList<>();
-		cache.add(new ArrayList<ArrayList<String>>());
-		for (int y = 0; y < classes; y++) {
-			cache.get(cache.size() - 1).add(new ArrayList<String>());
-		}
-		Crawler thisFolder = new Crawler(path, cache.get(0));
+		ArrayList<FileInfo> cache = new ArrayList<>();
+		
+		Crawler thisFolder = new Crawler(path, cache);
 
 		ArrayList<Thread> crawler = new ArrayList<>();
 		File tmp;
@@ -256,6 +213,16 @@ public class DataBase implements runVoid {
 	public void help() {
 		// TODO Auto-generated method stub
 
+	}
+
+	public ArrayList<String> getTags() {
+
+		return null;
+	}
+
+	public ArrayList<String> readMeta() {
+
+		return null;
 	}
 
 }

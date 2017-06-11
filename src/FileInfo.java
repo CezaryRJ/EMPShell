@@ -1,8 +1,9 @@
-import java.util.ArrayList;
 
 public class FileInfo {
 
-	String filename;
-	int rating;
-	ArrayList<String> tags;
+	String path;
+	
+	FileInfo(String path){
+		this.path = path;
+	}
 }
