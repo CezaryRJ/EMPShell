@@ -18,12 +18,12 @@ import indexing.PostingList;
 public class DataBase implements runVoid {
 
 	Lexicon lexicon = new Lexicon();
-	ArrayList<PostingList> PostingLists = new ArrayList<>();
+	ArrayList<PostingList> postingLists = new ArrayList<>();
 	ArrayList<FileInfo> files = new ArrayList<>();
 	//just living in the database database woah.
 	//stuff
 	public void findFile(String name) {
-		PostingList tmp = index.getInvertedIndex().get(index.getLexicon().lookup(name));
+		PostingList tmp = postingLists.get(lexicon.lookup(name));
 		for (int i = 0; i < tmp.getPostings().size(); i++) {
 			System.out.println(tmp.getPostings().get(i).getPath());
 
@@ -34,30 +34,23 @@ public class DataBase implements runVoid {
 
 		try {
 
-			for (int i = 0; i < classes; i++) {
-				// create more classes if needed
-				if (dataBase.get(i) == null) {
-					dataBase.put(i, new HashMap<String, FileInfo>());
-				}
-
-			}
-
+			
 			// read file database
 			// Scanner scanner = new Scanner(new File(file),"UTF-8");
 
 			BufferedReader scanner = new BufferedReader(
 					new InputStreamReader(new FileInputStream(new File(file)), "UTF8"));
 
-			classes = Integer.parseInt(scanner.readLine());
-			for (int x = 0; x < classes; x++) {
-				int classMembers = Integer.parseInt(scanner.readLine());
-				for (int i = 0; i < classMembers; i++) {
-					dataBase.get(x).put(scanner.readLine(), new FileInfo());
-				}
+		
+			int size = Integer.parseInt(scanner.readLine());
+			for (int x = 0; x < size; x++) {
+			
+				files.add(new FileInfo(scanner.readLine()));
+				//System.out.println(files.get(files.size()-1).path);
 
 			}
 
-			System.out.println("Files in databse : " + scanner.read());
+			System.out.println("Files in databse : " + size);
 			scanner.close();
 
 			System.out.println("Database file has been sucesfully read");
@@ -77,9 +70,6 @@ public class DataBase implements runVoid {
 
 		File[] listOfFiles = new File(path).listFiles();
 
-		ArrayList<FileInfo> cache = new ArrayList<>();
-		
-		Crawler thisFolder = new Crawler(path, cache);
 
 		ArrayList<Thread> crawler = new ArrayList<>();
 		File tmp;
@@ -90,20 +80,20 @@ public class DataBase implements runVoid {
 
 			if (tmp.isDirectory()) {
 
-				cache.add(new ArrayList<ArrayList<String>>());
-				for (int y = 0; y < classes; y++) {
-					cache.get(cache.size() - 1).add(new ArrayList<String>());
-				}
-				crawler.add(new Thread(new Crawler(tmp.getAbsolutePath(), cache.get(cache.size() - 1))));
+			
+				crawler.add(new Thread(new Crawler(tmp.getAbsolutePath(),files)));
 
 				threads++;
 
-			} else { // denne sjekke filene i root mappen
-				thisFolder.classifier.classify(tmp.getAbsolutePath());
+			} 
+			else{
+				
+				files.add(new FileInfo(tmp.getAbsolutePath()));
 			}
 
 		}
-		int maxThreads = 0;
+		
+		int maxThreads;
 		if (Runtime.getRuntime().availableProcessors() * 2 < crawler.size()) {
 			maxThreads = Runtime.getRuntime().availableProcessors();
 		} else {
@@ -111,6 +101,7 @@ public class DataBase implements runVoid {
 		}
 
 		int threadIndex = 0;
+		
 		for (int i = 0; i < maxThreads; i++) {
 			// start first threads
 			crawler.get(threadIndex).start();
@@ -128,35 +119,10 @@ public class DataBase implements runVoid {
 			}
 		}
 
-		for (int i = 0; i < classes; i++) {
-			// create more classes if needed
-			if (dataBase.get(i) == null) {
-				dataBase.put(i, new HashMap<String, FileInfo>());
-			}
 
-		}
-
-		// classes will be names 0,1,2,3 etc. 0 - music, 1- images and so on
-		for (int b = 0; b < cache.size(); b++) {
-			for (int c = 0; c < cache.get(b).size(); c++) {
-				for (int d = 0; d < cache.get(b).get(c).size(); d++) {
-
-					dataBase.get(c).put(cache.get(b).get(c).get(d), new FileInfo());
-
-				}
-			}
-
-		}
-
-		int fileCounter = 0;
-		for (int i = 0; i < classes; i++) {
-
-			System.out.println("Class " + labels.get(i) + " contains " + dataBase.get(i).size() + " files");
-			fileCounter += dataBase.get(i).size();
-		}
-		System.out.print(fileCounter + " files gathered in ");
+		
 		timer.stop();
-		System.out.println("\n" + threads + " threads have been used for this task");
+		System.out.println("\n" + files.size() + " files found\n" + threads + " threads have been used for this task");
 
 	}
 
@@ -164,16 +130,14 @@ public class DataBase implements runVoid {
 		System.out.println("Writing database to file");
 		OutputStreamWriter writer = new OutputStreamWriter(new FileOutputStream("empdb.txt"),
 				Charset.forName("UTF-8").newEncoder());
-		int counter = 0;
-		writer.write(classes + "\n");
-		for (int i = 0; i < dataBase.size(); i++) {
-			writer.write(dataBase.get(i).size() + "\n");
-			counter += dataBase.get(i).size();
-			for (String entry : dataBase.get(i).keySet()) {
-				writer.write(entry + "\n");
-			}
+		
+		writer.write(files.size() + "\n");
+		
+		for (int i = 0; i < files.size(); i++) {
+			writer.write(files.get(i).path + "\n");
+			
 		}
-		writer.write(counter);
+		
 		writer.close();
 	}
 
@@ -195,10 +159,7 @@ public class DataBase implements runVoid {
 		return out;
 	}
 
-	public HashMap<String, FileInfo> getGroup(int i) {
-
-		return dataBase.get(i);
-	}
+	
 
 	@Override
 	public void run(ArrayList<String> inn) throws Exception {
@@ -206,10 +167,7 @@ public class DataBase implements runVoid {
 
 	}
 
-	public HashMap<String, FileInfo> getClass(String name) {
-		return dataBase.get(labels.get(name));
-	}
-
+	
 	@Override
 	public void help() {
 		// TODO Auto-generated method stub

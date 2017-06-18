@@ -16,6 +16,7 @@ public class Crawler implements Runnable {
 
 	Crawler(String path, ArrayList<FileInfo> cache) {
 		this.path = path;
+		Files = cache;
 	}
 
 	@Override
@@ -30,7 +31,6 @@ public class Crawler implements Runnable {
 			if (listOfFiles[i].isDirectory()) {
 				listFiles(listOfFiles[i].getAbsolutePath());
 			} else {
-
 				Files.add(new FileInfo(listOfFiles[i].getAbsolutePath()));
 			}
 		}
