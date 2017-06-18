@@ -6,7 +6,7 @@ public class Posting {
 	private String path;
 	private String type;
 	
-	Posting(int docID){
+	public Posting(int docID){
 		this.setDocID(docID);
 	}
 

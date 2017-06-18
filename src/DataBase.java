@@ -119,7 +119,14 @@ public class DataBase implements runVoid {
 			}
 		}
 
+		ArrayList<String> tags;
 
+		for(int i = 0; i<files.size();i++){
+			tags = getTags(files.get(i).path);
+			for(int x = 0;x<tags.size();x++){
+				postingLists.get(lexicon.addValue(tags.get(i))).addPosting(new Posting(i));
+			}
+		}
 		
 		timer.stop();
 		System.out.println("\n" + files.size() + " files found\n" + threads + " threads have been used for this task");
@@ -174,7 +181,7 @@ public class DataBase implements runVoid {
 
 	}
 
-	public ArrayList<String> getTags() {
+	public ArrayList<String> getTags(String inn) {
 
 		return null;
 	}
