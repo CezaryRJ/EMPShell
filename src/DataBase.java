@@ -122,10 +122,7 @@ public class DataBase implements runVoid {
 		ArrayList<String> tags;
 
 		for(int i = 0; i<files.size();i++){
-			tags = getTags(files.get(i).path);
-			for(int x = 0;x<tags.size();x++){
-				postingLists.get(lexicon.addValue(tags.get(i))).addPosting(new Posting(i));
-			}
+			addFile(files.get(i).path,i);
 		}
 		
 		timer.stop();
@@ -175,10 +172,26 @@ public class DataBase implements runVoid {
 	}
 
 	
+	
 	@Override
 	public void help() {
 		// TODO Auto-generated method stub
 
+	}
+	
+	public void addFile(String path, int id){
+		
+		ArrayList<String> tags = getTags(path);
+		for(int i = 0; i<tags.size();i++){
+			if(lexicon.lookup(tags.get(i)) == -1){
+				lexicon.addValue(tags.get(i));
+				postingLists.add(new PostingList());
+				postingLists.get(lexicon.lookup(tags.get(i))).addPosting(new Posting(id));
+			}else {
+				postingLists.get(lexicon.lookup(tags.get(i))).addPosting(new Posting(id));
+			}
+			
+		}
 	}
 
 	public ArrayList<String> getTags(String inn) {
