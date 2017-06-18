@@ -2,6 +2,7 @@ package indexing;
 
 import java.util.ArrayList;
 
+
 public class PostingList {
 
 	private ArrayList<Posting> postings = new ArrayList<>();
@@ -18,7 +19,14 @@ public class PostingList {
 		this.postings = postings;
 	}
 	
-	public void addPosting(Posting inn){
-		getPostings().add(inn);
-	}
+	  public void addPosting(Posting posting) {
+	    	
+	        // First entry?
+	        if (this.postings == null) {
+	            this.postings = new ArrayList<Posting>(1);
+	        }
+
+	        this.postings.add(posting);
+	    	
+	    }
 }
