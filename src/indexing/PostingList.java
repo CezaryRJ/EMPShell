@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class PostingList {
 
-	private ArrayList<Posting> postings = new ArrayList<>();
+	public ArrayList<Posting> postings = new ArrayList<>();
 
 	public ArrayList<Posting> getPostings() {
 		return postings;
@@ -29,4 +29,10 @@ public class PostingList {
 	        this.postings.add(posting);
 	    	
 	    }
+	  
+	  public void print(){
+		  for(int i = 0; i<postings.size();i++){
+			  System.out.println(postings.get(i).getDocID());
+		  }
+	  }
 }

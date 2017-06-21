@@ -20,12 +20,13 @@ import indexing.PostingList;
 public class DataBase implements runVoid {
 
 	Lexicon lexicon = new Lexicon();
+	
 	ArrayList<PostingList> postingLists = new ArrayList<>();
 
 	List<FileInfo> files = Collections.synchronizedList(new ArrayList<FileInfo>());
 
-	// just living in the database database woah.
-	// stuff
+
+
 	public void findFile(String name) {
 		PostingList tmp = postingLists.get(lexicon.lookup(name));
 		for (int i = 0; i < tmp.getPostings().size(); i++) {
@@ -126,6 +127,7 @@ public class DataBase implements runVoid {
 			addFile(files.get(i).path, i);
 		}
 
+		
 		timer.stop();
 		System.out.println("\n" + files.size() + " files found\n" + threads + " threads have been used for this task");
 
@@ -164,7 +166,7 @@ public class DataBase implements runVoid {
 		for (int i = 0; i < tags.length; i++) {
 		
 			if (lexicon.lookup(tags[i]) == -1) {
-
+				
 				lexicon.addValue(tags[i]);
 				postingLists.add(new PostingList());
 				postingLists.get(lexicon.lookup(tags[i])).addPosting(new Posting(id));
