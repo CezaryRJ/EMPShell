@@ -1,3 +1,4 @@
+package general;
 import java.awt.Desktop;
 import java.awt.Toolkit;
 import java.awt.datatransfer.DataFlavor;
@@ -8,6 +9,8 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map.Entry;
+
+import search.QueryEvaluator;
 
 /**
  * Manages all modules under a 100 line limit
@@ -24,11 +27,19 @@ public class Manager {
 	HashMap<String, runVoid> runVoid = new HashMap<>();
 
 	DataBase database = new DataBase();
+	QueryEvaluator evaluator = new QueryEvaluator(database);
 
 	Manager(String path) throws Exception {
 		Manager.path = path;
 		openDir = path;
 		database.readData("empdb.txt");
+		
+		
+		ArrayList<String> tmp = new ArrayList<>();
+	
+		tmp.add("ResultSet.java");
+		evaluator.evaluateQuery(tmp);
+		evaluator.printRecent();
 
 		runVoid.put("dir", new ls());
 		runVoid.put("credits", new credits());

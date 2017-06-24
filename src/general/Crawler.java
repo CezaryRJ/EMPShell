@@ -1,6 +1,6 @@
+package general;
 import java.io.File;
-import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.List;
 
 /**
  * Indexes a given directory and its subdirectories used my the index method in
@@ -12,10 +12,11 @@ import java.util.HashMap;
 public class Crawler implements Runnable {
 
 	String path;
-	ArrayList<FileInfo> Files;
+	List<FileInfo> Files;
 
-	Crawler(String path, ArrayList<FileInfo> cache) {
+	Crawler(String path, List<FileInfo> files2) {
 		this.path = path;
+		Files = files2;
 	}
 
 	@Override
@@ -30,7 +31,6 @@ public class Crawler implements Runnable {
 			if (listOfFiles[i].isDirectory()) {
 				listFiles(listOfFiles[i].getAbsolutePath());
 			} else {
-
 				Files.add(new FileInfo(listOfFiles[i].getAbsolutePath()));
 			}
 		}
