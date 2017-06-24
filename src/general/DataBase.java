@@ -18,7 +18,7 @@ import indexing.InvertedIndex;
 import indexing.PostingList;
 
 
-public class DataBase implements runVoid {
+public class DataBase extends runVoid {
 
 	InvertedIndex index = new InvertedIndex();
 	public List<FileInfo> files = Collections.synchronizedList(new ArrayList<FileInfo>());
@@ -143,16 +143,6 @@ public class DataBase implements runVoid {
 		index(Manager.path);
 
 	}
-
-	@Override
-	public void help() {
-		// TODO Auto-generated method stub
-
-	}
-
-	
-
-	
 
 	
 	public PostingList lookup(String inn){

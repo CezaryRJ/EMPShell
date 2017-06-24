@@ -8,6 +8,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map.Entry;
 
 import search.QueryEvaluator;
@@ -35,12 +36,7 @@ public class Manager {
 		database.readData("empdb.txt");
 		
 		
-		ArrayList<String> tmp = new ArrayList<>();
-	
-		tmp.add("ResultSet.java");
-		evaluator.evaluateQuery(tmp);
-		evaluator.printRecent();
-
+		runVoid.put("s", evaluator);
 		runVoid.put("dir", new ls());
 		runVoid.put("credits", new credits());
 		runVoid.put("opendir", new openFolder());
@@ -86,7 +82,7 @@ public class Manager {
 	 * @author Cezary
 	 *
 	 */
-	class random implements runVoid {
+	class random extends runVoid {
 
 		public void run(ArrayList<String> inn) {
 			int size = inn.size();
@@ -121,7 +117,7 @@ public class Manager {
 	 * @author Cezary
 	 *
 	 */
-	class ls implements runVoid {
+	class ls extends runVoid {
 
 		public void run(ArrayList<String> inn) {
 			File[] listOfFiles = new File(path).listFiles();
@@ -148,11 +144,7 @@ public class Manager {
 
 		}
 
-		@Override
-		public void help() {
-			 
-
-		}
+		
 	}
 
 	/**
@@ -161,7 +153,7 @@ public class Manager {
 	 * @author Cezary
 	 *
 	 */
-	class credits implements runVoid {
+	class credits extends runVoid {
 
 		@Override
 		public void run(ArrayList<String> inn) {
@@ -169,11 +161,7 @@ public class Manager {
 
 		}
 
-		@Override
-		public void help() {
-			 
-
-		}
+		
 
 	}
 
@@ -183,7 +171,7 @@ public class Manager {
 	 * @author Cezary
 	 *
 	 */
-	class openFolder implements runVoid {
+	class openFolder extends runVoid {
 
 		@Override
 		public void run(ArrayList<String> inn) {
@@ -196,11 +184,6 @@ public class Manager {
 
 		}
 
-		@Override
-		public void help() {
-			 
-
-		}
 
 	}
 
@@ -212,7 +195,7 @@ public class Manager {
 	 *
 	 */
 
-	class delete implements runVoid {
+	class delete extends runVoid {
 
 		@Override
 		public void run(ArrayList<String> inn) {
@@ -229,11 +212,7 @@ public class Manager {
 			}
 		}
 
-		@Override
-		public void help() {
-			 
-
-		}
+		
 
 	}
 
@@ -244,7 +223,7 @@ public class Manager {
 	 *
 	 */
 
-	class goToc implements runVoid {
+	class goToc extends runVoid {
 
 		public void run(ArrayList<String> inn) throws Exception {
 			path = (String) Toolkit.getDefaultToolkit().getSystemClipboard().getData(DataFlavor.stringFlavor);
@@ -258,11 +237,7 @@ public class Manager {
 
 		}
 
-		@Override
-		public void help() {
-			 
-
-		}
+		
 
 	}
 
@@ -272,26 +247,23 @@ public class Manager {
 	 * @author Cezary
 	 *
 	 */
-	class helper implements runVoid {
+	class helper extends runVoid {
 
 		public void run(ArrayList<String> inn) throws Exception {
 
 			try {
 				runVoid.get(inn.get(0)).help();
 			} catch (Exception e) {
-				for (Entry<String, runVoid> entry : runVoid.entrySet()) {
-					entry.getValue().help();
-					System.out.println();
+				Iterator<String> iterator = runVoid.keySet().iterator();
+				while(iterator.hasNext()){
+					runVoid.get(iterator.next()).help();;
 				}
 
 			}
 
 		}
 
-		public void help() {
-			 
-
-		}
+		
 
 	}
 
@@ -302,7 +274,7 @@ public class Manager {
 	 *
 	 */
 
-	class open implements runVoid {
+	class open extends runVoid {
 
 		@Override
 		public void run(ArrayList<String> inn) throws Exception {
@@ -322,11 +294,6 @@ public class Manager {
 			}
 		}
 
-		@Override
-		public void help() {
-			 
-
-		}
 
 	}
 
@@ -337,7 +304,7 @@ public class Manager {
 	 *
 	 */
 
-	class exit implements runVoid {
+	class exit extends runVoid {
 
 		@Override
 		public void run(ArrayList<String> inn) throws Exception {
@@ -363,7 +330,7 @@ public class Manager {
 	 *
 	 */
 
-	class enterFolder implements runVoid {
+	class enterFolder extends runVoid {
 
 		@Override
 		public void run(ArrayList<String> inn) {

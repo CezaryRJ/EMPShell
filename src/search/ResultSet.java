@@ -2,6 +2,7 @@ package search;
 
 import java.util.HashMap;
 
+
 import indexing.Posting;
 
 public class ResultSet {
@@ -32,4 +33,5 @@ public class ResultSet {
 		}
 		System.out.println("Number of results : " + results.size());
 	}
+	
 }
