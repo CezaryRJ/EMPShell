@@ -1,3 +1,4 @@
+package general;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
@@ -9,38 +10,28 @@ import java.io.OutputStreamWriter;
 import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.HashMap;
+
 import java.util.List;
 
 import indexing.InvertedIndex;
-import indexing.Lexicon;
-import indexing.Posting;
+
 import indexing.PostingList;
+
 
 public class DataBase implements runVoid {
 
-	Lexicon lexicon = new Lexicon();
+	InvertedIndex index = new InvertedIndex();
+	public List<FileInfo> files = Collections.synchronizedList(new ArrayList<FileInfo>());
+
+
+
 	
-	ArrayList<PostingList> postingLists = new ArrayList<>();
-
-	List<FileInfo> files = Collections.synchronizedList(new ArrayList<FileInfo>());
-
-
-
-	public void findFile(String name) {
-		PostingList tmp = postingLists.get(lexicon.lookup(name));
-		for (int i = 0; i < tmp.getPostings().size(); i++) {
-			System.out.println(tmp.getPostings().get(i).getDocID());
-
-		}
-	}
 
 	public void readData(String file) throws Exception {
 
 		try {
 
 			// read file database
-			// Scanner scanner = new Scanner(new File(file),"UTF-8");
 
 			BufferedReader scanner = new BufferedReader(
 					new InputStreamReader(new FileInputStream(new File(file)), "UTF8"));
@@ -49,7 +40,7 @@ public class DataBase implements runVoid {
 			for (int x = 0; x < size; x++) {
 
 				files.add(new FileInfo(scanner.readLine()));
-				// System.out.println(files.get(files.size()-1).path);
+				index.addFile(files.get(files.size()-1).getPath(), x);
 
 			}
 
@@ -68,8 +59,7 @@ public class DataBase implements runVoid {
 
 	public void index(String path) throws Exception {
 
-		lexicon = new Lexicon();
-		postingLists = new ArrayList<PostingList>();
+		index.clear();
 		files = Collections.synchronizedList(new ArrayList<FileInfo>());
 
 		Timer timer = new Timer();
@@ -124,7 +114,7 @@ public class DataBase implements runVoid {
 		}
 
 		for (int i = 0; i < files.size(); i++) {
-			addFile(files.get(i).path, i);
+		index.addFile(files.get(i).getPath(), i);
 		}
 
 		
@@ -141,7 +131,7 @@ public class DataBase implements runVoid {
 		writer.write(files.size() + "\n");
 
 		for (int i = 0; i < files.size(); i++) {
-			writer.write(files.get(i).path + "\n");
+			writer.write(files.get(i).getPath() + "\n");
 
 		}
 
@@ -160,31 +150,12 @@ public class DataBase implements runVoid {
 
 	}
 
-	public void addFile(String path, int id) {
+	
 
-		String[] tags = getTags(path);
-		for (int i = 0; i < tags.length; i++) {
-		
-			if (lexicon.lookup(tags[i]) == -1) {
-				
-				lexicon.addValue(tags[i]);
-				postingLists.add(new PostingList());
-				postingLists.get(lexicon.lookup(tags[i])).addPosting(new Posting(id));
-			} else {
-				postingLists.get(lexicon.lookup(tags[i])).addPosting(new Posting(id));
-			}
+	
 
-		}
+	
+	public PostingList lookup(String inn){
+		return index.lookup(inn);
 	}
-
-	public String[] getTags(String inn) {
-
-		return inn.split("\\\\");
-	}
-
-	public ArrayList<String> readMeta() {
-
-		return null;
-	}
-
 }

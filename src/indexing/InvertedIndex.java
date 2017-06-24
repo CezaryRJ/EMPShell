@@ -1,33 +1,32 @@
 package indexing;
 
-import java.io.File;
+
 import java.util.ArrayList;
 
 public class InvertedIndex {
 
 	private Lexicon lexicon = new Lexicon();
 
-	private ArrayList<PostingList> invertedIndex;
+	private ArrayList<PostingList> postingLists = new ArrayList<>();
 
-	public void addFile(File inn, int docId) {
+	public void addFile(String path, int id) {
 
-		PostingList tmp;
+		String[] tags = getTags(path);
+		
+		for (int i = 0; i < tags.length; i++) {
+			
+			if (lexicon.lookup(tags[i]) == -1) {
+				
+				lexicon.addValue(tags[i]);
+				postingLists.add(new PostingList());
+				
+				////double storage, this should be changed
+				postingLists.get(lexicon.lookup(tags[i])).addPosting(new Posting(id),id);
+			} else {
+				postingLists.get(lexicon.lookup(tags[i])).addPosting(new Posting(id),id);
+			}
 
-		String fileName = inn.getName();
-		int lexiconId = lexicon.lookup(fileName);
-
-		// not found
-		if (lexiconId == 0) {
-			lexiconId = lexicon.addValue(fileName);
-			tmp = new PostingList();
-			tmp.addPosting(new Posting(docId));
-			invertedIndex.add(lexiconId, tmp);
-		} else {
-			tmp = invertedIndex.get(lexiconId);
 		}
-
-		tmp.addPosting(new Posting(docId));
-
 	}
 	
 	public Lexicon getLexicon(){
@@ -35,11 +34,32 @@ public class InvertedIndex {
 	}
 	
 	public ArrayList<PostingList> getInvertedIndex() {
-		return invertedIndex;
+		return postingLists;
 	}
 
 	public void setInvertedIndex(ArrayList<PostingList> invertedIndex) {
-		this.invertedIndex = invertedIndex;
+		this.postingLists = invertedIndex;
+	}
+	
+	public String[] getTags(String inn) {
+
+		return inn.split("\\\\");
+	}
+	public ArrayList<String> readMeta() {
+
+		return null;
+	}
+	public void clear(){
+		lexicon = new Lexicon();
+		postingLists = new ArrayList<PostingList>();
+	}
+	public PostingList lookup(String inn){
+		int tmp = lexicon.lookup(inn);
+		if(tmp == -1){
+			return new PostingList();
+		}
+		return postingLists.get(lexicon.lookup(inn));
+		
 	}
 
 }
