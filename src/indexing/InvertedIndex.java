@@ -2,6 +2,7 @@ package indexing;
 
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class InvertedIndex {
 
@@ -11,19 +12,19 @@ public class InvertedIndex {
 
 	public void addFile(String path, int id) {
 
-		String[] tags = getTags(path);
+		ArrayList<String> tags = getTags(path);
 		
-		for (int i = 0; i < tags.length; i++) {
+		for (int i = 0; i < tags.size(); i++) {
 			
-			if (lexicon.lookup(tags[i]) == -1) {
+			if (lexicon.lookup(tags.get(i)) == -1) {
 				
-				lexicon.addValue(tags[i]);
+				lexicon.addValue(tags.get(i));
 				postingLists.add(new PostingList());
 				
 				////double storage, this should be changed
-				postingLists.get(lexicon.lookup(tags[i])).addPosting(new Posting(id),id);
+				postingLists.get(lexicon.lookup(tags.get(i))).addPosting(new Posting(id),id);
 			} else {
-				postingLists.get(lexicon.lookup(tags[i])).addPosting(new Posting(id),id);
+				postingLists.get(lexicon.lookup(tags.get(i))).addPosting(new Posting(id),id);
 			}
 
 		}
@@ -41,13 +42,24 @@ public class InvertedIndex {
 		this.postingLists = invertedIndex;
 	}
 	
-	public String[] getTags(String inn) {
+	public ArrayList<String> getTags(String inn) {
 
-		return inn.split("\\\\");
+		ArrayList<String> out = new ArrayList<String>(Arrays.asList(inn.split("\\\\")));
+		
+		out.add("." + getExtention(out.get(out.size()-1)));
+	
+		
+		//System.out.println(out);
+		return  out;
 	}
 	public ArrayList<String> readMeta() {
 
 		return null;
+	}
+	
+	public String getExtention(String inn){
+		String[] out = inn.split("\\.");
+		return out[out.length-1];
 	}
 	public void clear(){
 		lexicon = new Lexicon();

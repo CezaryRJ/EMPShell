@@ -1,6 +1,6 @@
 package general;
 
-import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Every module should implements this
@@ -12,10 +12,10 @@ public abstract class runVoid {
 	
 /**
  *  This should be called to run a given module
- * @param inn 
+ * @param list 
  * @throws Exception
  */
-	public abstract void run(ArrayList<String> inn) throws Exception;
+	public abstract Object run(List<Object> list) throws Exception;
 	
 	/**
 	 * This should print instructions on how to use the module

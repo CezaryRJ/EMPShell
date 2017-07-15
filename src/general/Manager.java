@@ -9,8 +9,9 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.Map.Entry;
+import java.util.List;
 
+import math.Add;
 import search.QueryEvaluator;
 
 /**
@@ -25,7 +26,7 @@ public class Manager {
 
 	static String openDir;
 
-	HashMap<String, runVoid> runVoid = new HashMap<>();
+	public HashMap<String, runVoid> runVoid = new HashMap<>();
 
 	DataBase database = new DataBase();
 	QueryEvaluator evaluator = new QueryEvaluator(database);
@@ -35,7 +36,7 @@ public class Manager {
 		openDir = path;
 		database.readData("empdb.txt");
 		
-		
+		runVoid.put("+", new Add());
 		runVoid.put("s", evaluator);
 		runVoid.put("dir", new ls());
 		runVoid.put("credits", new credits());
@@ -50,6 +51,13 @@ public class Manager {
 		runVoid.put("cd", new enterFolder());
 		runVoid.put("mix", new PartyMixer(this));
 	}
+	
+	public boolean isFunction(String inn){
+		if(runVoid.containsKey(inn)){
+			return true;
+		}
+		return false;
+	}
 
 	/**
 	 * @param inn
@@ -58,9 +66,9 @@ public class Manager {
 	 *            Where it string will be split
 	 * @return an array list of tokens
 	 */
-	public static ArrayList<String> tokenize(String inn, String limiter) {
+	public static ArrayList<Object> tokenize(String inn, String limiter) {
 
-		ArrayList<String> out = new ArrayList<>();
+		ArrayList<Object> out = new ArrayList<>();
 		int counter = 0;
 
 		for (int i = 0; i < inn.length() - 1; i++) {
@@ -84,7 +92,7 @@ public class Manager {
 	 */
 	class random extends runVoid {
 
-		public void run(ArrayList<String> inn) {
+		public Object run(List<Object> inn) {
 			int size = inn.size();
 			int random;
 
@@ -92,15 +100,15 @@ public class Manager {
 				random = (int) (Math.random() * 10000);
 				System.out.println(random);
 			} else if (size == 1) {
-				random = (int) (Math.random() * Integer.parseInt(inn.get(0)));
+				random = (int) (Math.random() * Integer.parseInt((String) inn.get(0)));
 				System.out.println(random);
 			} else {
-				random = (int) (Math.random() * (Integer.parseInt(inn.get(0)) - Integer.parseInt(inn.get(1)))
-						+ Integer.parseInt(inn.get(1)));
+				random = (int) (Math.random() * (Integer.parseInt((String) inn.get(0)) - Integer.parseInt((String) inn.get(1)))
+						+ Integer.parseInt((String) inn.get(1)));
 				System.out.println(random);
 
 			}
-
+return null;
 		}
 
 		public void help() {
@@ -119,7 +127,7 @@ public class Manager {
 	 */
 	class ls extends runVoid {
 
-		public void run(ArrayList<String> inn) {
+		public Object run(List<Object> inn) {
 			File[] listOfFiles = new File(path).listFiles();
 			ArrayList<String> files = new ArrayList<>();
 			ArrayList<String> folders = new ArrayList<>();
@@ -141,7 +149,7 @@ public class Manager {
 				System.out.println(files.get(i));
 
 			}
-
+			return null;
 		}
 
 		
@@ -156,9 +164,9 @@ public class Manager {
 	class credits extends runVoid {
 
 		@Override
-		public void run(ArrayList<String> inn) {
+		public Object run(List<Object> inn) {
 			System.out.println("Created by Cezary Radoslaw Jaksula\nhttps://github.com/CezaryRJ");
-
+			return null;
 		}
 
 		
@@ -174,14 +182,14 @@ public class Manager {
 	class openFolder extends runVoid {
 
 		@Override
-		public void run(ArrayList<String> inn) {
+		public Object run(List<Object> inn) {
 			try {
 				Desktop.getDesktop().open(new File(path));
 			} catch (IOException e) {
 			
 				e.printStackTrace();
 			}
-
+			return null;
 		}
 
 
@@ -198,7 +206,7 @@ public class Manager {
 	class delete extends runVoid {
 
 		@Override
-		public void run(ArrayList<String> inn) {
+		public Object run(List<Object> inn) {
 
 			File tmp;
 			for (int i = 2; i < inn.size(); i++) {
@@ -210,6 +218,7 @@ public class Manager {
 					System.out.println("File " + tmp.getName() + " could not be deleted");
 				}
 			}
+			return null;
 		}
 
 		
@@ -225,7 +234,7 @@ public class Manager {
 
 	class goToc extends runVoid {
 
-		public void run(ArrayList<String> inn) throws Exception {
+		public Object run(List<Object> inn) throws Exception {
 			path = (String) Toolkit.getDefaultToolkit().getSystemClipboard().getData(DataFlavor.stringFlavor);
 			if (new File(path).isDirectory()) {
 
@@ -234,7 +243,7 @@ public class Manager {
 			} else {
 				System.out.println("No such directory");
 			}
-
+return null;
 		}
 
 		
@@ -249,7 +258,7 @@ public class Manager {
 	 */
 	class helper extends runVoid {
 
-		public void run(ArrayList<String> inn) throws Exception {
+		public Object run(List<Object> inn) throws Exception {
 
 			try {
 				runVoid.get(inn.get(0)).help();
@@ -260,7 +269,7 @@ public class Manager {
 				}
 
 			}
-
+			return null;
 		}
 
 		
@@ -277,7 +286,7 @@ public class Manager {
 	class open extends runVoid {
 
 		@Override
-		public void run(ArrayList<String> inn) throws Exception {
+		public Object run(List<Object> inn) throws Exception {
 
 			for (int i = 0; i < inn.size(); i++) {
 		
@@ -292,6 +301,7 @@ public class Manager {
 					e.printStackTrace();
 				}
 			}
+			return null;
 		}
 
 
@@ -307,11 +317,12 @@ public class Manager {
 	class exit extends runVoid {
 
 		@Override
-		public void run(ArrayList<String> inn) throws Exception {
+		public Object run(List<Object> inn) throws Exception {
 
 			database.writeToFile();
 			System.out.println("Exiting - Have a nice day");
 			System.exit(0);
+			return null;
 
 		}
 
@@ -333,7 +344,7 @@ public class Manager {
 	class enterFolder extends runVoid {
 
 		@Override
-		public void run(ArrayList<String> inn) {
+		public Object run(List<Object> inn) {
 
 			if (inn.size() > 0) {
 
@@ -349,8 +360,9 @@ public class Manager {
 				}
 				// if no input is given, exit current directory
 			} else {
-				path = exitFolder(path);
+				path = (String) exitFolder(path);
 			}
+			return null;
 		}
 
 		/**
@@ -360,11 +372,11 @@ public class Manager {
 		 *            - Current directory path
 		 * @return
 		 */
-		public String exitFolder(String path) {
+		public Object exitFolder(String path) {
 
-			ArrayList<String> tmp = tokenize(path, "\\");
+			ArrayList<Object> tmp = tokenize(path, "\\");
 
-			String out = tmp.get(0);
+			Object out = tmp.get(0);
 			for (int i = 1; i < tmp.size() - 1; i++) {
 				out = out + "\\" + tmp.get(i);
 			}

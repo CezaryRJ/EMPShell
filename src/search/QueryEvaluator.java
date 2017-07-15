@@ -2,9 +2,10 @@ package search;
 
 import java.awt.Desktop;
 import java.io.File;
-import java.util.ArrayList;
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.List;
 
 import general.DataBase;
 import general.Timer;
@@ -26,24 +27,24 @@ public class QueryEvaluator extends runVoid {
 		timer = new Timer();
 	}
 
-	public void evaluateQuery(ArrayList<String> queryTerms) {
+	public ResultSet evaluateQuery(List<Object> inn) {
 		// find the smallest posting list
 		int smallest = 0;
-		for (int i = 1; i < queryTerms.size(); i++) {
-			if (data.lookup(queryTerms.get(smallest)).size() > data.lookup(queryTerms.get(i)).size()) {
+		for (int i = 1; i < inn.size(); i++) {
+			if (data.lookup((String) inn.get(smallest)).size() > data.lookup((String) inn.get(i)).size()) {
 				smallest = i;
 			}
 		}
 		ResultSet out = new ResultSet();
 
-		out.setResults(new HashMap<Integer, Posting>(data.lookup(queryTerms.get(smallest)).postings));
+		out.setResults(new HashMap<Integer, Posting>(data.lookup((String) inn.get(smallest)).postings));
 
 		PostingList tmp;
 		int key;
 		Iterator<Integer> iter = out.results.keySet().iterator();
-		queryTerms.remove(smallest);
-		for (int i = 0; i < queryTerms.size(); i++) {
-			tmp = data.lookup(queryTerms.get(i));
+		inn.remove(smallest);
+		for (int i = 0; i < inn.size(); i++) {
+			tmp = data.lookup((String) inn.get(i));
 
 			// iterate over hashmap
 			while (iter.hasNext()) {
@@ -54,7 +55,7 @@ public class QueryEvaluator extends runVoid {
 				}
 			}
 		}
-		mostRecent = out;
+		return out;
 	}
 
 	public void printRecent() {
@@ -72,27 +73,42 @@ public class QueryEvaluator extends runVoid {
 	}
 
 	@Override
-	public void run(ArrayList<String> inn) throws Exception {
+	public Object run(List<Object> inn) throws Exception {
 
 		timer.start();
 		if (inn.get(0).equals("?")) {
-			Iterator<Integer> iterator = mostRecent.results.keySet().iterator();
 
-			for (int i = 0; i < Integer.parseInt(inn.get(1)); i++) {
-				iterator.next();
-			}
+			openResult(inn);
 
-			Desktop.getDesktop()
-					.open(new File(data.files.get(mostRecent.results.get(iterator.next()).getDocID()).getPath()));
 			timer.stop();
 		} else {
-			evaluateQuery(inn);
-			printRecent();
+			mostRecent = evaluateQuery(inn);
 			timer.stop();
-			System.out.println();
+			printRecent();
+
+		}
+		return mostRecent;
+
+	}
+
+	public void openResult(List<Object> inn) throws IOException {
+
+		// input must be in ascending order
+
+		Iterator<Integer> iterator = mostRecent.results.keySet().iterator();
+
+		int length = 0;
+		int tmp = 0;
+		for (int x = 1; x < inn.size(); x++) {
+			length = Integer.parseInt((String) inn.get(x)) - length + 1;
+			for (int i = 0; i < length; i++) {
+				tmp = iterator.next();
+			}
+
+			Desktop.getDesktop().open(new File(data.files.get(mostRecent.results.get(tmp).getDocID()).getPath()));
+
 		}
 
 	}
 
-	
 }

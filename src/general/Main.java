@@ -2,6 +2,8 @@ package general;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+import evaluator.CommandEvaluator;
+
 public class Main {
 
 	// sort by name, size, ranking/popularity
@@ -13,21 +15,35 @@ public class Main {
 		
 		
 		Manager manager = new Manager(System.getProperty("user.dir"));
+		
+		CommandEvaluator evaluator = new CommandEvaluator(manager);
 
 		Recorder recorder = new Recorder();
 		// Start loop
 
-		ArrayList<String> tokens;
-		String tmp;
-		String raw;
+		ArrayList<Object> tokens;
+		Object tmp;
+		Object raw;
 		@SuppressWarnings("resource")
 		Scanner inn = new Scanner(System.in);
+		
+		
 		while (true) {
 
 			tmp = inn.nextLine();
 			raw = tmp;
-			tokens = Manager.tokenize(tmp, " ");
+			tokens = Manager.tokenize((String)tmp, " ");
 			tmp = tokens.get(0);
+		
+				tokens.add(":");
+			
+		
+			evaluator.parse(tokens, manager);
+			
+			
+			
+			
+			/*
 
 			if (manager.runVoid.get(tmp) != null) {
 				// try regular command
@@ -68,7 +84,7 @@ public class Main {
 
 				}
 
-			}
+			}*/
 
 		}
 

@@ -1,6 +1,8 @@
 package general;
 
-import java.util.ArrayList;
+import java.util.List;
+
+import search.ResultSet;
 
 /**
  * Makes a playlist consisting of the requested amount of tracks from the
@@ -21,9 +23,15 @@ public class PartyMixer extends runVoid {
 		this.manager = manager;
 	}
 
-	public void run(ArrayList<String> inn) throws Exception {
-
+	public Object run(List<Object> inn) throws Exception {
+		System.out.println("hei");
 	
+			((ResultSet) inn.get(0)).print();
+			
+		System.out.println("hei");
+		
+
+		return null;
 	}
 
 	@Override

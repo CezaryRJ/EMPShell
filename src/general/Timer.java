@@ -16,7 +16,7 @@ public class Timer {
 
 	public void stop() {
 
-		System.out.print((double) (System.nanoTime() - start) / 1000000 + " miliseconds");
+		System.out.println((double) (System.nanoTime() - start) / 1000000 + " miliseconds");
 	
 	}
 
