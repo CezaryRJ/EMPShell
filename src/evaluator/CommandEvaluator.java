@@ -18,7 +18,9 @@ public class CommandEvaluator {
 		root = new Value(manager);
 		root.parse(inn);
 		tmp = root.evaluate();
-		if (tmp != null) {
+		//only print if there is a value at the end, end if it is worth printing
+		if (tmp != null && ((tmp instanceof String) || (tmp instanceof Double) || (tmp instanceof Integer))) {
+
 			System.out.println(tmp);
 		}
 

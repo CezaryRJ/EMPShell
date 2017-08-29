@@ -7,7 +7,7 @@ import indexing.Posting;
 
 public class ResultSet {
 
-	HashMap<Integer, Posting> results;
+	public HashMap<Integer, Posting> results;
 
 	public void add(Posting inn) {
 		results.put(inn.getDocID(), inn);

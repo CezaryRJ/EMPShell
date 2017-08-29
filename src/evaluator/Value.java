@@ -61,6 +61,7 @@ public class Value {
 			}
 
 		}
+		
 		return manager.runVoid.get(func).run(args);
 	}
 

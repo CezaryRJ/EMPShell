@@ -28,7 +28,7 @@ public class Manager {
 
 	public HashMap<String, runVoid> runVoid = new HashMap<>();
 
-	DataBase database = new DataBase();
+	public DataBase database = new DataBase();
 	QueryEvaluator evaluator = new QueryEvaluator(database);
 
 	Manager(String path) throws Exception {
@@ -98,17 +98,17 @@ public class Manager {
 
 			if (size == 0) {
 				random = (int) (Math.random() * 10000);
-				System.out.println(random);
+				//System.out.println(random);
 			} else if (size == 1) {
 				random = (int) (Math.random() * Integer.parseInt((String) inn.get(0)));
-				System.out.println(random);
+			//	System.out.println(random);
 			} else {
 				random = (int) (Math.random() * (Integer.parseInt((String) inn.get(0)) - Integer.parseInt((String) inn.get(1)))
 						+ Integer.parseInt((String) inn.get(1)));
-				System.out.println(random);
+				///System.out.println(random);
 
 			}
-return null;
+return random;
 		}
 
 		public void help() {
