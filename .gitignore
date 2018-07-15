@@ -1,7 +1,8 @@
-#unwanted crap
+# unwanted crap
 *.mp3
 *.class
 *.txt
+*.wpl
 
 # Windows image file caches
 Thumbs.db

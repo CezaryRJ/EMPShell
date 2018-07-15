@@ -76,6 +76,12 @@ public class QueryEvaluator extends runVoid {
 	public Object run(List<Object> inn) throws Exception {
 
 		timer.start();
+
+		if (inn.get(0) == null) {
+			System.out.println("Error, empty result set");
+			return mostRecent;
+		}
+
 		if (inn.get(0).equals("?")) {
 
 			openResult(inn);
